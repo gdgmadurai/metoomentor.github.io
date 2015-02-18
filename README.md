@@ -1,2 +1,2 @@
 # metoomentor.github.io
-Offical hosting repository 
+Offical hosting repository for website 
