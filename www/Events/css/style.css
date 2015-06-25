@@ -58,11 +58,11 @@ h1 {
 h2 {
 	font-size: 30px;
 	font-weight: 700;
-	color: #f10f24;
+	color: #1E88E5;
 }
 h2 span {
 	font-weight: 700;
-	color: #f10f24;
+	color: #1E88E5;
 }
 h3 {
 	font-size: 24px;
@@ -144,7 +144,7 @@ header {
 	height: auto !important;
 }
 header .menu {
-	background: rgba(228, 32, 51, 0.87);
+	background: #015798;
 	width: 100%;
 	padding: 0 30px;
 	border-radius: 4px;
@@ -170,7 +170,7 @@ header .nav-collapse ul {
 	list-style: none;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-	background: #f10f24;
+	background: #1E88E5;
 	color: #fff;
 }
 header .navbar-default .navbar-nav > li > a {
@@ -197,11 +197,11 @@ header .navbar-default .navbar-nav > li > a {
 	transition: 0.4s ease-in-out;
 }
 .current {
-	background: #f10f24;
+	background: #1E88E5;
 	color: #fff;
 }
 header nav .active {
-	background: #f10f24;
+	background: #1E88E5;
 	color: #fff;
 }
 /*=======================================================
@@ -269,7 +269,7 @@ header nav .active {
 	font-weight: 100;
 }
 .carousel-caption p span {
-	color: #f10f24;
+	color: #1E88E5;
 }
 .carousel-caption h3 {
 	margin-top: 10px;
@@ -335,6 +335,7 @@ header nav .active {
 	line-height:20px;
 	text-transform:uppercase;
 	margin-right: 20px;
+	background: blue;
 }
 .carousel .item {
     -webkit-transition: opacity 0.7s; 
@@ -355,7 +356,7 @@ header nav .active {
 	font-size: 30px;
 	margin: 10px 0 20px 0;
 	font-weight: 700;
-	color: #f10f24 !important;
+	color: #1E88E5 !important;
 }
 .tittle p {
 	font-size: 16px;
@@ -372,7 +373,7 @@ header nav .active {
 .icon-main i {
 	height: 67px;
 	width: 67px;
-	color: #f1172c;
+	color: #015798;
 	font-size: 50px;
 	background: #fff;
 	text-align: center;
@@ -381,7 +382,7 @@ header nav .active {
 	border-radius: 8px;
 }
 .overlay {
-	background: rgba(241,15,36,0.8);
+	background: #015798;
 	position: relative;
 	height: 100%;
 	width: 100%;
@@ -390,7 +391,7 @@ header nav .active {
 			Events Time
 ========================================================*/
 #event_time {
-	background: #f10f24;
+	background: #1E88E5;
 	z-index: 99;
 	height: 145px;
 	text-align: center;
@@ -408,9 +409,9 @@ header nav .active {
 	line-height: 215px;
 	text-align: center;
 	margin-top: -50px;
-	background: #f10f24;
+	background: #1E88E5;
 	border-radius: 50%;
-	border: 10px solid #f10f24;
+	border: 10px solid #1E88E5;
 }
 #event_time ul {
 	display: inline-block;
@@ -465,8 +466,8 @@ header nav .active {
 	line-height: 67px;
 }
 .manage li:hover .icon i {
-	background: #f10f24;
-	border: 1px solid #f10f24;
+	background: #1E88E5;
+	border: 1px solid #1E88E5;
 	color: #fff;
 	-webkit-transition: 0.4s ease-in-out;
 	-moz-transition: 0.4s ease-in-out;
@@ -482,7 +483,7 @@ header nav .active {
 	background: #f7f7f7;
 }
 .days .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active {
-	background: #f10f24;
+	background: #1E88E5;
 	color: #fff;
 	-webkit-transition: 0.4s ease-in-out;
 	-moz-transition: 0.4s ease-in-out;
@@ -503,7 +504,7 @@ header nav .active {
 .panel-default > .panel-heading .panel-title a:before {
 	content: "\f207";
 	font-family: "Ionicons";
-	color: #fff;
+	color: #1E88E5;
 	border-radius: 50%;
 	float: right;
 	height: 24px;
@@ -511,7 +512,7 @@ header nav .active {
 	text-align: center;
 	line-height: 23px;
 	font-size: 23px;
-	border: 1px solid #fff;
+	border: 1px solid #1E88E5;
 	margin-top: 13px;
 }
 .panel-default > .panel-heading .panel-title a.collapsed:before {
@@ -525,7 +526,7 @@ header nav .active {
 	float: left;
 	line-height: 37px;
 	font-size: 14px;
-	color: #d10a11;
+	color: #015798;
 	font-weight: bold;
 	margin-top: 7px;
 	margin-right: 10px;
@@ -606,19 +607,19 @@ header nav .active {
 	font-weight: 500;
 }
 .register-input button {
-	background: #f10f24;
-	color: #fff;
+	background: #1E88E5;
+	color: #1E88E5;
 	font-size: 16px;
 	font-weight: bold;
 	height: 53px;
 	line-height: 45px;
 	padding: 0px;
-	border: 4px solid #f10f24;
+	border: 4px solid #1E88E5;
 	border-bottom: 4px solid #97000e;
 }
 .register-input button:hover {
 	background: none;
-	color: #f10f24;
+	color: #1E88E5;
 	-webkit-transition: 0.4s ease-in-out;
 	-moz-transition: 0.4s ease-in-out;
 	-ms-transition: 0.4s ease-in-out;
@@ -688,7 +689,7 @@ header nav .active {
 	background: #fff;
 	border: 1px solid #cccccc;
 	width: 70px;
-	color: #f11227;
+	color: #015798;
 	border-radius: 10px;
 }
 #gallery .posts li {
@@ -949,7 +950,7 @@ header nav .active {
 }
 #owl-testi .testi {
 	padding: 25px 20px;
-	background: #f10f24;
+	background: #1E88E5;
 	padding-bottom: 70px;
 }
 #owl-testi .testi h5 {
@@ -1109,7 +1110,7 @@ ul.countdown li p {
 	text-transform: uppercase;
 }
 ul.countdown .round-back {
-	background: #f10f24;
+	background: #1E88E5;
 	border: 3px solid #fff;
 	display: inline-block;
 	box-shadow: 0 1px 5px #000;
@@ -1213,7 +1214,7 @@ ul.countdown .round-back p {
 			Member Singer.... etc
 ========================================================*/
 #member {
-	background: #f10f24;
+	background: #1E88E5;
 	padding: 50px 0;
 }
 #member .tittle h2 {
@@ -1267,13 +1268,13 @@ ul.countdown .round-back p {
 	width: 86px;
 	line-height: 85px;
 	text-align: center;
-	color: #f10f24;
+	color: #1E88E5;
 	background: #fff;
 	font-size: 50px;
 	border: 1px solid #fff;
 }
 #member .team li:hover i {
-	background: #f10f24;
+	background: #1E88E5;
 	color: #fff;
 	border: 1px solid #fff;
 	-webkit-transition: 0.4s ease-in-out;
@@ -1320,13 +1321,13 @@ ul.countdown .round-back p {
 	width: 86px;
 	line-height: 86px;
 	text-align: center;
-	color: #f10f24;
+	color: #1E88E5;
 	background: #fff;
 	font-size: 30px;
 	border: 1px solid #fff;
 }
 #member .figcaption span:hover {
-	background: #f10f24;
+	background: #1E88E5;
 	color: #fff;
 	-webkit-transition: 0.4s ease-in-out;
 	-moz-transition: 0.4s ease-in-out;
@@ -1371,7 +1372,7 @@ ul.countdown .round-back p {
 	position: relative;
 }
 #news input[name="submit"] {
-	background: #f10f24;
+	background: #1E88E5;
 	border-radius: 4px;
 	width: 124px;
 	height: 45px;
@@ -1381,7 +1382,7 @@ ul.countdown .round-back p {
 	color: #fff !important;
 	line-height: 36px;
 	font-weight: bold;
-	border: 4px solid #f10f24;
+	border: 4px solid #1E88E5;
 	border-bottom: 4px solid #97000e;
 }
 /*=======================================================
@@ -1398,7 +1399,7 @@ ul.countdown .round-back p {
 	margin-top: 50px;
 }
 .panel-heading {
-	background: #d10a11;
+	background: #1E88E5;
 	border-top-left-radius: 4px;
 	border-top-right-radius: 4px;
 }
