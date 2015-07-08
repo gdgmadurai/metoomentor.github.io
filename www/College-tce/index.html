@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<!--[if IE 9 ]><html class="ie9"><![endif]-->
+    
+<!-- Mirrored from byrushan.com/projects/ma/v1-3-1/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 04 May 2015 13:16:11 GMT -->
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="img/favicon(1).ico" type="image/vnd.microsoft.icon" />
+        <title>Thiagarajar College of Engineering
+        </title>
+
+        <!-- Vendor CSS -->
+        <link href="vendors/fullcalendar/fullcalendar.css" rel="stylesheet">
+        <link href="vendors/animate-css/animate.min.css" rel="stylesheet">
+        <link href="vendors/sweet-alert/sweet-alert.min.css" rel="stylesheet">
+        <link href="vendors/material-icons/material-design-iconic-font.min.css" rel="stylesheet">
+        <link href="vendors/socicon/socicon.min.css" rel="stylesheet">
+            
+        <!-- CSS -->
+        <link href="css/app.min.1.css" rel="stylesheet">
+        <link href="css/app.min.2.css" rel="stylesheet">
+        <!--<link href="css/base.css" rel="stylesheet">-->
+        <link href="css/base.min.css" rel="stylesheet">
+        
+        <!--<link href="css/project.css" rel="stylesheet">-->
+        <!--<link href="css/project.min.css" rel="stylesheet">-->
+        
+        
+    </head>
+    <body>
+        <header id="header">   
+            <ul class="header-inner">
+                <li id="menu-trigger" data-trigger="#sidebar">
+                    <div class="line-wrap">
+                        <div class="line top"></div>
+                        <div class="line center"></div>
+                        <div class="line bottom"></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="logo hidden-xs">
+                        <a href="index.html"><img src="img/header.png"></img></a>   
+                    </div> 
+                </li>
+                
+                <li class="pull-right">
+                <ul class="top-menu">
+                    <li id="toggle-width">
+                        <div class="toggle-switch">
+                            <input id="tw-switch" type="checkbox" hidden="hidden">
+                            <label for="tw-switch" class="ts-helper"></label>
+                        </div>
+                    </li>
+                    <li id="top-search">
+                        <a class="tm-search" href="#"></a>
+                    </li>
+                    </ul>
+                </li>
+            </ul>
+            
+            <!-- Top Search Content -->
+            <div id="top-search-wrap">
+                <input type="text">
+                <i id="top-search-close">&times;</i>
+            </div>
+        </header>
+        
+        <section id="main">
+            <aside id="sidebar">
+                <div class="sidebar-inner">
+                    <div class="si-inner">
+                        <div class="profile-menu">
+                            <a href="#">
+                                <div class="profile-pic">
+                                    <img src="img/profile-pics/Mission.jpg" alt="">
+                                </div>
+                                
+                                <div class="profile-info">
+                                    <b>Thiagarajar College of Engineering</b>
+                                    
+                                    <!--<i class="md md-arrow-drop-down"></i>-->
+                                </div>
+                            </a>
+                            
+                            <!--<ul class="main-menu">
+                                <li>
+                                    <a href="profile-about.html"><i class="md md-person"></i> View Profile</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="md md-settings-input-antenna"></i> Privacy Settings</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="md md-settings"></i> Settings</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="md md-history"></i> Logout</a>
+                                </li>
+                            </ul>-->
+                        </div>
+                        
+                        <ul class="main-menu">
+                            <li class="active"><a href="index.html"><i class="md md-home"></i> Home</a></li>
+                            <li><a href="abouttce.html"><i class="md md-format-underline"></i> About TCE</a></li>
+                            
+                            <li><a href="typography.html"><i class="md md-trending-up"></i> Admission</a></li>
+                            <li><a href="typography.html"><i class="md md-swap-calls"></i> Departments</a></li>
+                            <li><a href="typography.html"><i class="md md-my-library-books"></i> Research</a></li>
+                            <li><a href="typography.html"><i class="md md-today"></i> Contact Us</a></li>
+                            <!--<li class="sub-menu">
+                                <a href="#"><i class="md md-now-widgets"></i> Widgets</a>
+
+                                <ul>
+                                    <li><a href="widget-templates.html">Templates</a></li>
+                                    <li><a class="active" href="widgets.html">Widgets</a></li>
+                                </ul>
+                            </li>-->
+                            <!--<li class="sub-menu">
+                                <a href="#"><i class="md md-view-list"></i> Tables</a>
+                
+                                <ul>
+                                    <li><a href="tables.html">Normal Tables</a></li>
+                                    <li><a href="data-tables.html">Data Tables</a></li>
+                                </ul>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#"><i class="md md-my-library-books"></i> Forms</a>
+                
+                                <ul>
+                                    <li><a href="form-elements.html">Basic Form Elements</a></li>
+                                    <li><a href="form-components.html">Form Components</a></li>
+                                    <li><a href="form-examples.html">Form Examples</a></li>
+                                    <li><a href="form-validations.html">Form Validation</a></li>
+                                </ul>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#"><i class="md md-swap-calls"></i>User Interface</a>
+                                <ul>
+                                    <li><a href="colors.html">Colors</a></li>
+                                    <li><a href="animations.html">Animations</a></li>
+                                    <li><a href="box-shadow.html">Box Shadow</a></li>
+                                    <li><a href="buttons.html">Buttons</a></li>
+                                    <li><a href="icons.html">Icons</a></li>
+                                    <li><a href="alerts.html">Alerts</a></li>
+                                    <li><a href="notification-dialog.html">Notifications & Dialogs</a></li>
+                                    <li><a href="media.html">Media</a></li>
+                                    <li><a href="components.html">Components</a></li>
+                                    <li><a href="other-components.html">Others</a></li>
+                                </ul>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#"><i class="md md-trending-up"></i>Charts</a>
+                                <ul>
+                                    <li><a href="flot-charts.html">Flot Charts</a></li>
+                                    <li><a href="other-charts.html">Other Charts</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="calendar.html"><i class="md md-today"></i> Calendar</a></li>
+                            <li><a href="generic-classes.html"><i class="md md-layers"></i> Generic Classes</a></li>
+                            <li class="sub-menu">
+                                <a href="#"><i class="md md-content-copy"></i> Sample Pages</a>
+                                <ul>
+                                    <li><a href="profile-about.html">Profile</a></li>
+                                    <li><a href="list-view.html">List View</a></li>
+                                    <li><a href="messages.html">Messages</a></li>
+                                    <li><a href="login.html">Login and Sign Up</a></li>
+                                    <li><a href="404.html">Error 404</a></li>
+                                </ul>
+                            </li>
+                        </ul>-->
+                    </div>
+                </div>
+            </aside>
+            
+            
+            <section id="content">
+                <div class="container">
+                    <div class="block-header"> 
+                    </div>
+                    
+                    
+                        <div class="card-header">
+                            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                                <!-- Indicators -->
+                                <ol class="carousel-indicators">
+                                  <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                  <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                  <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                                  <li data-target="#carousel-example-generic" data-slide-to="3" class="active"></li>
+                                  <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                                  <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+                                  <li data-target="#carousel-example-generic" data-slide-to="6" class="active"></li>
+                                  <li data-target="#carousel-example-generic" data-slide-to="7"></li>
+                                  <li data-target="#carousel-example-generic" data-slide-to="8"></li>
+                                </ol>
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="item active">
+                                        <img src="img/themes/theme1.jpg" alt="">
+                                        </div>
+                                        <div class="item">
+                                            <img src="img/themes/theme2.jpg" alt="">
+                                        </div>
+                                        <div class="item">
+                                            <img src="img/themes/theme3.jpg" alt="">
+                                        </div>
+                                         <div class="item">
+                                            <img src="img/themes/theme4.jpg" alt="">
+                                        </div>
+                                         <div class="item">
+                                            <img src="img/themes/theme5.jpg" alt="">
+                                        </div>
+                                         <div class="item">
+                                            <img src="img/themes/theme6.jpg" alt="">
+                                        </div>
+                                         <div class="item">
+                                            <img src="img/themes/theme7.jpg" alt="">
+                                        </div>
+                                         <div class="item">
+                                            <img src="img/themes/theme8.jpg" alt="">
+                                        </div>
+                                         <div class="item">
+                                            <img src="img/themes/theme9.jpg" alt="">
+                                        </div>
+                                        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                                            <span class="md md-chevron-left" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                                            <span class="md md-chevron-right" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                </div>
+                            </div>
+                           
+                        </div><br>
+                       
+                    <div class="col-sm-6">   
+                        <div class="card">  
+                        <div class="card-body">
+                                <ul class="tab-nav tn-justified tn-icon" role="tablist">
+                                    <li role="presentation" class="active">
+                                        <a class="col-sx-4" href="#tab-1" aria-controls="tab-1" role="tab" data-toggle="tab">
+                                            <b>Events</b>
+                                            <!--<i class="md md-home icon-tab"></i>-->
+                                        </a>
+                                    </li>
+                                    <li role="presentation">
+                                        <a class="col-xs-4" href="#tab-2" aria-controls="tab-2" role="tab" data-toggle="tab">
+                                            <b>NEWS</b>
+                                            <!--<i class="md md-room icon-tab"></i>-->
+                                        </a>
+                                    </li>
+                                    <li role="presentation">
+                                        <a class="col-xs-4" href="#tab-3" aria-controls="tab-3" role="tab" data-toggle="tab">
+                                            <b>RECOGNITIONS AND AWARDS</b>
+                                            <!--<i class="md md-star icon-tab"></i>-->
+                                        </a>
+                                    </li>
+                                </ul>    
+                        <div class="tab-content p-20">
+                                    <div role="tabpanel" class="tab-pane animated fadeIn in active" id="tab-1">
+                                        <img src="img/events/tc.jpg" class="img-responsive m-b-15" alt="">
+                                            <div>
+                                            <b><font size="2.5px"><i class="md md-star icon-tab"></i><a href="event1.html">Two Week ISTE Workshop on Environmental Studies</a></font></b>
+                                           </div>
+                                           <div>
+                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2 Jun 2015 - 9:00am
+                                           </div> <br>
+                                           <div>
+                                            <b><font size="2.5px"><i class="md md-star icon-tab"></i><a href="event2.html">Department of ECE organizes Short Term Course on Blackfin Processor and its Applications</a></font></b>
+                                           </div>
+                                           <div>
+                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20 Jun 2015 - 9:00am
+                                           </div> <br>
+                                           <div>
+                                            <b><font size="2.5px"><i class="md md-star icon-tab"></i><a href="event3.html">Certification Program in CAD/CAM/PRO-E CREO 2.0</a></font></b>
+                                           </div>
+                                           <div>
+                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;30 Jun 2015 - 5:45pm
+                                           </div> 
+                                    </div>
+                                    
+                                    <div role="tabpanel" class="tab-pane animated fadeIn" id="tab-2">
+                                        <!--<img src="img/headers/sm/2.png" class="img-responsive m-b-15" alt="">-->
+                                        <div>
+                                            <b><font size="2.5px"><img src="img/news/newicon.gif"></img><a href="news1.html">Staff Selection for Self-Financing Course</a></font></b>
+                                           </div>
+                                           <br>
+                                           <div>
+                                            <b><font size="2.5px"><i class="md md-star icon-tab"></i>
+                                            Graduation Day on 14th June, 2015(Sunday). Graduates are requested to report by 2 PM in their respective departments.</font></b>
+                                           </div><br>
+                                           <div>
+                                            <b><font size="2.5px"><i class="md md-star icon-tab"></i><a href="news2.html">TCE wins IMC Ramkrishna Bajaj National Quality Awards 2014 under Education Category</a></font></b>
+                                           </div>
+                                            <br>
+                                           <div>
+                                            <b><font size="2.5px"><i class="md md-star icon-tab"></i><a href="ceo.html">COE Announcement</a></font></b>
+                                           </div><br>
+                                            <div>
+                                            <b><font size="2.5px"><i class="md md-star icon-tab"></i><a href="news4.html">Online verification of certificates</a></font></b>
+                                           </div>
+                                           
+                                    </div>
+                                    
+                                    <div role="tabpanel" class="tab-pane animated fadeIn" id="tab-3">
+                                        <div>
+                                            <b><font size="2.5px"><i class="md md-star icon-tab"></i><a href="ra1.html">57th College Day celebration, 30 Mar,2015</a></font></b>
+                                           </div>
+                                           <br>
+                                           <div>
+                                            <b><font size="2.5px"><i class="md md-star icon-tab"></i><!--<a href=".html">-->
+                                            UGC Research Award conferred to Dr.G.Kanagaraj, Associate Professor of Mechanical Engineering on Trajectory Optimization for Robotic Manipulator<!--</a>--></font></b>
+                                           </div><br>
+                                           <div>
+                                            <b><font size="2.5px"><i class="md md-star icon-tab"></i><!--<a href=".html">-->TCE wins IMC Ramkrishna Bajaj National Quality Awards 2014 under Education Category<!--</a>--></font></b>
+                                           </div>
+                                            <br>
+                                           <div>
+                                            <b><font size="2.5px"><i class="md md-star icon-tab"></i><!--<a href=".html">-->Dr.M.Kameswari and Dr.G.Jothilakshmi, Associate Professors of Mathematics have received best paper award at IRAJ(Institute of Research and Journals) conference,Pune,2015<!--</a>--></font></b>
+                                           </div><br>
+                                            
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+               <div class="col-sm-6">       
+                   
+                <div class="card blog-post">
+                            <div class="bp-header">
+                                <img src="img/academic/academics.jpg" alt="">
+                                    
+                                <a href="#" class="bp-title">
+                                    <h2>Academics</h2>
+                                    
+                                </a>
+                            </div>
+                            
+                            <div class="p-20">
+                                <div>
+                                <img src="img/academic/bullet.png"></img><a href="engandtech.html"><b><font size="2.5px"> Engineering & Technology</font><b></a>
+                                </div><br>
+                                <div>
+                                 <img src="img/academic/bullet.png"></img><a href="science.html"><b><font size="2.5px"> Science & Humanities</font><b></a>
+                             </div><br>
+                             <div>
+                                 <img src="img/academic/bullet.png"></img><a href="arch.html"><b><font size="2.5px"> Architecture</font><b></a>
+                              </div>   <br>
+                              <div>
+                                 <img src="img/academic/bullet.png"></img><a href="tqe.html"><b><font size="2.5px"> TEQIP-II</font><b></a>
+                              </div>   <br>
+                            </div>
+                        </div>  
+                </div><br>
+                <!--<div class="mini-charts">-->
+                   <div class="row">
+                    </div>
+                <!--</div>-->
+                    
+                    
+                  <div class="col-sm-4">   
+                        <div class="card">  
+                        <div class="card-body" id="todo-lists">
+                                <ul class="tab-nav tn-justified tn-icon" role="tablist">
+                                    <li role="presentation" class="active">
+                                        <a class="col-sx-4" href="#tab-1" aria-controls="tab-1" role="tab" data-toggle="tab">
+                                            <b>INDUSTRY INTERFACE</b>
+                                            <!--<i class="md md-home icon-tab"></i>-->
+                                        </a>
+                                    </li>
+        
+                                </ul>    
+                        <div class="tab-content p-20">
+                                    <div role="tabpanel" class="tab-pane animated fadeIn in active" id="tab-1">
+                                        <img src="img/academic/placement.jpg" class="img-responsive m-b-15" alt="">
+                                            <div>
+                                            <b><font size="2.5px"><i class="md md-star icon-tab"></i><a href="placement.html"><font color="maroon">Placement Statistics</a></font></b>
+                                           </div>
+                                            <br>
+                                           <!--<div>
+                                            <b><font size="2.5px"><i class="md md-star icon-tab"></i><a href=".html"><font color="maroon">Corporate Relationship</a></font></b>
+                                           </div>-->
+                                            <div>
+                                            <b><font size="2.5px"><i class="md md-star icon-tab"></i><font color="maroon">Corporate Relationship</font></b>
+                                           </div>
+                                           <br>
+                                           <div>
+                                            <b><font size="2.5px"><i class="md md-star icon-tab"></i><a href="consult.html"><font color="maroon">Consultancy</a></font></b>
+                                           </div>
+                                          
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-sm-4">   
+                        <div class="card">  
+                        <div class="card-body" id="todo-lists">
+                                <ul class="tab-nav tn-justified tn-icon" role="tablist">
+                                    <li role="presentation" class="active">
+                                        <a class="col-sx-4" href="#tab-1" aria-controls="tab-1" role="tab" data-toggle="tab">
+                                            <b>LIBRARY</b>
+                                            <!--<i class="md md-home icon-tab"></i>-->
+                                        </a>
+                                    </li>
+        
+                                </ul>    
+                        <div class="tab-content p-20">
+                                    <div role="tabpanel" class="tab-pane animated fadeIn in active" id="tab-1">
+                                        <img src="img/academic/tcelibrary.jpg" class="img-responsive m-b-15" alt="">
+                                            <center><div>
+                                            <b><font size="2.5px"><i class="md md-star icon-tab"></i><a href="knowledge.html"><font color="maroon">Knowledge Gateway</a></font></b>
+                                           </div></center>
+                                            <br>
+                                          
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                  <div class="col-sm-4">   
+                        <div class="card">  
+                        <div class="card-body" id="todo-lists">
+                                <ul class="tab-nav tn-justified tn-icon" role="tablist">
+                                    <li role="presentation" class="active">
+                                        <a class="col-sx-4" href="#tab-1" aria-controls="tab-1" role="tab" data-toggle="tab">
+                                            <b>RESEARCH</b>
+                                            <!--<i class="md md-home icon-tab"></i>-->
+                                        </a>
+                                    </li>
+        
+                                </ul>    
+                        <div class="tab-content p-20">
+                                    <div role="tabpanel" class="tab-pane animated fadeIn in active" id="tab-1">
+                                        <img src="img/academic/research.jpg" class="img-responsive m-b-15" alt="">
+                                            <div>
+                                            <b><font size="2.5px"><i class="md md-star icon-tab"></i><a href="research.html"><font color="maroon">Academic Research</a></font></b>
+                                           </div>
+                                            <br>
+                                           <!--<div>
+                                            <b><font size="2.5px"><i class="md md-star icon-tab"></i><a href=".html"><font color="maroon">Sponsored Research</a></font></b>
+                                           </div>-->
+                                            <div>
+                                            <b><font size="2.5px"><i class="md md-star icon-tab"></i><font color="maroon">Sponsored Research</font></b>
+                                           </div>
+                                           <br>
+                                            <div>
+                                            <b><font size="2.5px"><i class="md md-star icon-tab"></i><a href="tifa.html"><font color="maroon">TARC</a></font></b>
+                                           </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row">
+
+                </div>
+                <div class="col-sm-6">   
+                <div class="card go-social">
+                            <div class="card-header">
+                                <h2><b>Golden Jubilee Celebration(1957-2007) Picture Album</b></h2>
+                            </div><br>
+                            <center>
+                            <div class="card-body clearfix">
+                                <a class="col-xs-4" href=".html">
+                                    <img src="img/academic/karumuttu_thiagaraja_chettiar.jpg" class="img-responsive" alt="">  
+                                </a> 
+                            </div>
+                            <a href="karumuthu1.html">Golden Jubilee Album</a>
+                                </a>
+                        </center><br>
+                        </div>
+                    </div> 
+                    <div class="col-sm-6">   
+                <div class="card go-social">
+                            <div class="card-header">
+                                <h2><b>Download Calendar</b></h2>
+                            </div>
+                            <center>
+                            <div class="card-body clearfix">
+                                <a class="col-xs-4" href="#">
+                                    <img src="img/academic/tce_logo.png" class="img-responsive" alt="">   
+                                </a>
+
+                            </div>
+                            
+                                    <a href="img/pdf/calendar20142015_28.pdf" download>Academic Calendar 2014-2015</a>
+                                </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                
+                                
+                                    <a href="img/pdf/calendar20132014/pdf" download>Academic Calendar 2013-2014</a>
+                                </a>
+                                 
+                        </center><br>
+                        </div>
+                    </div>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="fbtn-container">
+                        <div class="fbtn-inner">
+                            <a class="fbtn fbtn-red fbtn-plus" data-toggle="dropdown"><span class="fbtn-text">Join Us</span><span class="fbtn-ori icon icon-add"></span><span class="fbtn-sub icon icon-close"></span></a>
+                                <div class="fbtn-dropdown">
+                                    <a class="fbtn" href="#" target="_blank"><span class="fbtn-text">Register</span><span class="fa fa-sign-in"></span></a>
+                                    <a class="fbtn fbtn-blue" href="#" target="_blank"><span class="fbtn-text">Join as Speaker</span><span class="fa fa-microphone"></span></a>
+                                    <a class="fbtn fbtn-alt" href="./contact.html" target="_blank"><span class="fbtn-text">Contact us</span><span class="fa fa-phone"></span></a>
+                                </div>
+                        </div>
+                    </div>
+            </section>
+        </section>
+        
+        <!-- Older IE warning message -->
+        <!--[if lt IE 9]>
+            <div class="ie-warning">
+                <h1 class="c-white">IE SUCKS!</h1>
+                <p>You are using an outdated version of Internet Explorer, upgrade to any of the following web browser <br/>in order to access the maximum functionality of this website. </p>
+                <ul class="iew-download">
+                    <li>
+                        <a href="http://www.google.com/chrome/">
+                            <img src="img/browsers/chrome.png" alt="">
+                            <div>Chrome</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.mozilla.org/en-US/firefox/new/">
+                            <img src="img/browsers/firefox.png" alt="">
+                            <div>Firefox</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.opera.com">
+                            <img src="img/browsers/opera.png" alt="">
+                            <div>Opera</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.apple.com/safari/">
+                            <img src="img/browsers/safari.png" alt="">
+                            <div>Safari</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">
+                            <img src="img/browsers/ie.png" alt="">
+                            <div>IE (New)</div>
+                        </a>
+                    </li>
+                </ul>
+                <p>Upgrade your browser for a Safer and Faster web experience. <br/>Thank you for your patience...</p>
+            </div>   
+        <![endif]-->
+        
+        <!-- Javascript Libraries -->
+        <script src="js/jquery-2.1.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        
+        <script src="vendors/flot/jquery.flot.min.js"></script>
+        <script src="vendors/flot/jquery.flot.resize.min.js"></script>
+        <script src="vendors/flot/plugins/curvedLines.js"></script>
+        <script src="vendors/sparklines/jquery.sparkline.min.js"></script>
+        <script src="vendors/easypiechart/jquery.easypiechart.min.js"></script>
+        
+        <script src="vendors/fullcalendar/lib/moment.min.js"></script>
+        <script src="vendors/fullcalendar/fullcalendar.min.js"></script>
+        <script src="vendors/simpleWeather/jquery.simpleWeather.min.js"></script>
+        <script src="vendors/auto-size/jquery.autosize.min.js"></script>
+        <script src="vendors/nicescroll/jquery.nicescroll.min.js"></script>
+        <script src="vendors/waves/waves.min.js"></script>
+        <script src="vendors/bootstrap-growl/bootstrap-growl.min.js"></script>
+        <script src="vendors/sweet-alert/sweet-alert.min.js"></script>
+        
+        <script src="js/flot-charts/curved-line-chart.js"></script>
+        <script src="js/flot-charts/line-chart.js"></script>
+        <script src="js/charts.js"></script>
+        
+        <script src="js/charts.js"></script>
+        <script src="js/functions.js"></script>
+        <script src="js/demo.js"></script>
+
+        
+    </body>
+  
+<!-- Mirrored from byrushan.com/projects/ma/v1-3-1/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 04 May 2015 13:17:09 GMT -->
+</html>

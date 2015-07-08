@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+    <!--[if IE 9 ]><html class="ie9"><![endif]-->
+    
+<!-- Mirrored from byrushan.com/projects/ma/v1-3-1/typography.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 04 May 2015 13:18:28 GMT -->
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="img/favicon(1).ico" type="image/vnd.microsoft.icon" />
+        <title>Thiagarajar College of Engineering</title>
+    
+        <!-- Vendor CSS -->
+        <link href="vendors/animate-css/animate.min.css" rel="stylesheet">
+        <link href="vendors/sweet-alert/sweet-alert.min.css" rel="stylesheet">
+        <link href="vendors/material-icons/material-design-iconic-font.min.css" rel="stylesheet">
+        <link href="vendors/socicon/socicon.min.css" rel="stylesheet">
+            
+        <!-- CSS -->
+        <link href="css/app.min.1.css" rel="stylesheet">
+        <link href="css/app.min.2.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        <header id="header">   
+            <ul class="header-inner">
+                <li id="menu-trigger" data-trigger="#sidebar">
+                    <div class="line-wrap">
+                        <div class="line top"></div>
+                        <div class="line center"></div>
+                        <div class="line bottom"></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="logo hidden-xs">
+                        <a href="index.html"><img src="img/header.png"></img></a>   
+                    </div> 
+                </li>
+                
+                <li class="pull-right">
+                <ul class="top-menu">
+                    <li id="toggle-width">
+                        <div class="toggle-switch">
+                            <input id="tw-switch" type="checkbox" hidden="hidden">
+                            <label for="tw-switch" class="ts-helper"></label>
+                        </div>
+                    </li>
+                    <li id="top-search">
+                        <a class="tm-search" href="#"></a>
+                    </li>
+                    </ul>
+                </li>
+            </ul>
+            
+            <!-- Top Search Content -->
+            <div id="top-search-wrap">
+                <input type="text">
+                <i id="top-search-close">&times;</i>
+            </div>
+        </header>
+        
+        <section id="main">
+           <aside id="sidebar">
+                <div class="sidebar-inner">
+                    <div class="si-inner">
+                        <div class="profile-menu">
+                            <a href="#">
+                                <div class="profile-pic">
+                                    <img src="img/profile-pics/Mission.jpg" alt="">
+                                </div>
+                                
+                                <div class="profile-info">
+                                    <b>Thiagarajar College of Engineering</b>
+                                    
+                                    <!--<i class="md md-arrow-drop-down"></i>-->
+                                </div>
+                            </a>
+                            
+                            <!--<ul class="main-menu">
+                                <li>
+                                    <a href="profile-about.html"><i class="md md-person"></i> View Profile</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="md md-settings-input-antenna"></i> Privacy Settings</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="md md-settings"></i> Settings</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="md md-history"></i> Logout</a>
+                                </li>
+                            </ul>-->
+                        </div>
+                        
+                        <ul class="main-menu">
+                            <li class="active"><a href="index.html"><i class="md md-home"></i> Home</a></li>
+                            <li><a href="typography.html"><i class="md md-format-underline"></i> Typography</a></li>
+                            <li class="sub-menu">
+                                <a href="#"><i class="md md-now-widgets"></i> Widgets</a>
+
+                                <ul>
+                                    <li><a href="widget-templates.html">Templates</a></li>
+                                    <li><a class="active" href="widgets.html">Widgets</a></li>
+                                </ul>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#"><i class="md md-view-list"></i> Tables</a>
+                
+                                <ul>
+                                    <li><a href="tables.html">Normal Tables</a></li>
+                                    <li><a href="data-tables.html">Data Tables</a></li>
+                                </ul>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#"><i class="md md-my-library-books"></i> Forms</a>
+                
+                                <ul>
+                                    <li><a href="form-elements.html">Basic Form Elements</a></li>
+                                    <li><a href="form-components.html">Form Components</a></li>
+                                    <li><a href="form-examples.html">Form Examples</a></li>
+                                    <li><a href="form-validations.html">Form Validation</a></li>
+                                </ul>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#"><i class="md md-swap-calls"></i>User Interface</a>
+                                <ul>
+                                    <li><a href="colors.html">Colors</a></li>
+                                    <li><a href="animations.html">Animations</a></li>
+                                    <li><a href="box-shadow.html">Box Shadow</a></li>
+                                    <li><a href="buttons.html">Buttons</a></li>
+                                    <li><a href="icons.html">Icons</a></li>
+                                    <li><a href="alerts.html">Alerts</a></li>
+                                    <li><a href="notification-dialog.html">Notifications & Dialogs</a></li>
+                                    <li><a href="media.html">Media</a></li>
+                                    <li><a href="components.html">Components</a></li>
+                                    <li><a href="other-components.html">Others</a></li>
+                                </ul>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#"><i class="md md-trending-up"></i>Charts</a>
+                                <ul>
+                                    <li><a href="flot-charts.html">Flot Charts</a></li>
+                                    <li><a href="other-charts.html">Other Charts</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="calendar.html"><i class="md md-today"></i> Calendar</a></li>
+                            <li><a href="generic-classes.html"><i class="md md-layers"></i> Generic Classes</a></li>
+                            <li class="sub-menu">
+                                <a href="#"><i class="md md-content-copy"></i> Sample Pages</a>
+                                <ul>
+                                    <li><a href="profile-about.html">Profile</a></li>
+                                    <li><a href="list-view.html">List View</a></li>
+                                    <li><a href="messages.html">Messages</a></li>
+                                    <li><a href="login.html">Login and Sign Up</a></li>
+                                    <li><a href="404.html">Error 404</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </aside>
+            
+            <aside id="chat">
+                <ul class="tab-nav tn-justified" role="tablist">
+                    <li role="presentation" class="active"><a href="#friends" aria-controls="friends" role="tab" data-toggle="tab">Friends</a></li>
+                    <li role="presentation"><a href="#online" aria-controls="online" role="tab" data-toggle="tab">Online Now</a></li>
+                </ul>
+            
+                <div class="chat-search">
+                    <div class="fg-line">
+                        <input type="text" class="form-control" placeholder="Search People">
+                    </div>
+                </div>
+            
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane fade in active" id="friends">
+                        <div class="listview">
+                            <a class="lv-item" href="#">
+                                <div class="media">
+                                    <div class="pull-left p-relative">
+                                        <img class="lv-img-sm" src="img/profile-pics/2.jpg" alt="">
+                                        <i class="chat-status-busy"></i>
+                                    </div>
+                                    <div class="media-body">
+                                        <div class="lv-title">Jonathan Morris</div>
+                                        <small class="lv-small">Available</small>
+                                    </div>
+                                </div>
+                            </a>
+            
+                            <a class="lv-item" href="#">
+                                <div class="media">
+                                    <div class="pull-left">
+                                        <img class="lv-img-sm" src="img/profile-pics/1.jpg" alt="">
+                                    </div>
+                                    <div class="media-body">
+                                        <div class="lv-title">David Belle</div>
+                                        <small class="lv-small">Last seen 3 hours ago</small>
+                                    </div>
+                                </div>
+                            </a>
+            
+                            <a class="lv-item" href="#">
+                                <div class="media">
+                                    <div class="pull-left p-relative">
+                                        <img class="lv-img-sm" src="img/profile-pics/3.jpg" alt="">
+                                        <i class="chat-status-online"></i>
+                                    </div>
+                                    <div class="media-body">
+                                        <div class="lv-title">Fredric Mitchell Jr.</div>
+                                        <small class="lv-small">Availble</small>
+                                    </div>
+                                </div>
+                            </a>
+            
+                            <a class="lv-item" href="#">
+                                <div class="media">
+                                    <div class="pull-left p-relative">
+                                        <img class="lv-img-sm" src="img/profile-pics/4.jpg" alt="">
+                                        <i class="chat-status-online"></i>
+                                    </div>
+                                    <div class="media-body">
+                                        <div class="lv-title">Glenn Jecobs</div>
+                                        <small class="lv-small">Availble</small>
+                                    </div>
+                                </div>
+                            </a>
+            
+                            <a class="lv-item" href="#">
+                                <div class="media">
+                                    <div class="pull-left">
+                                        <img class="lv-img-sm" src="img/profile-pics/5.jpg" alt="">
+                                    </div>
+                                    <div class="media-body">
+                                        <div class="lv-title">Bill Phillips</div>
+                                        <small class="lv-small">Last seen 3 days ago</small>
+                                    </div>
+                                </div>
+                            </a>
+            
+                            <a class="lv-item" href="#">
+                                <div class="media">
+                                    <div class="pull-left">
+                                        <img class="lv-img-sm" src="img/profile-pics/6.jpg" alt="">
+                                    </div>
+                                    <div class="media-body">
+                                        <div class="lv-title">Wendy Mitchell</div>
+                                        <small class="lv-small">Last seen 2 minutes ago</small>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="lv-item" href="#">
+                                <div class="media">
+                                    <div class="pull-left p-relative">
+                                        <img class="lv-img-sm" src="img/profile-pics/7.jpg" alt="">
+                                        <i class="chat-status-busy"></i>
+                                    </div>
+                                    <div class="media-body">
+                                        <div class="lv-title">Teena Bell Ann</div>
+                                        <small class="lv-small">Busy</small>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="online">
+                        <div class="listview">
+                            <a class="lv-item" href="#">
+                                <div class="media">
+                                    <div class="pull-left p-relative">
+                                        <img class="lv-img-sm" src="img/profile-pics/2.jpg" alt="">
+                                        <i class="chat-status-busy"></i>
+                                    </div>
+                                    <div class="media-body">
+                                        <div class="lv-title">Jonathan Morris</div>
+                                        <small class="lv-small">Available</small>
+                                    </div>
+                                </div>
+                            </a>
+            
+                            <a class="lv-item" href="#">
+                                <div class="media">
+                                    <div class="pull-left p-relative">
+                                        <img class="lv-img-sm" src="img/profile-pics/3.jpg" alt="">
+                                        <i class="chat-status-online"></i>
+                                    </div>
+                                    <div class="media-body">
+                                        <div class="lv-title">Fredric Mitchell Jr.</div>
+                                        <small class="lv-small">Availble</small>
+                                    </div>
+                                </div>
+                            </a>
+            
+                            <a class="lv-item" href="#">
+                                <div class="media">
+                                    <div class="pull-left p-relative">
+                                        <img class="lv-img-sm" src="img/profile-pics/4.jpg" alt="">
+                                        <i class="chat-status-online"></i>
+                                    </div>
+                                    <div class="media-body">
+                                        <div class="lv-title">Glenn Jecobs</div>
+                                        <small class="lv-small">Availble</small>
+                                    </div>
+                                </div>
+                            </a>
+            
+                            <a class="lv-item" href="#">
+                                <div class="media">
+                                    <div class="pull-left p-relative">
+                                        <img class="lv-img-sm" src="img/profile-pics/7.jpg" alt="">
+                                        <i class="chat-status-busy"></i>
+                                    </div>
+                                    <div class="media-body">
+                                        <div class="lv-title">Teena Bell Ann</div>
+                                        <small class="lv-small">Busy</small>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        
+        
+            <section id="content">
+                <div class="container">
+                    <div class="block-header">
+                        
+                    
+                        
+                    
+                    </div>
+                
+                 
+                
+                    <div class="card">
+                        
+                        <div class="card-body card-padding">
+                           
+                    
+                            <div class="clearfix"></div>
+                    
+                            <center><h2>Machine Vision Lab</h2>
+                           </center>
+                           <p> <h4><font color="green"><img src="img/academic/bullet.png"></img> CAPABILITIES</font></h4></p>
+                            <div>
+                              <p>
+                                <ul>
+                                    <li>Building Machine Vision Systems for Industrial Applications.</li>
+                                    <li>Developing Indigenous Machine Vision software.</li>
+                                    <li>Handling Applied and Academic research in Vision.</li>
+                                    <li>Handling Sponsored Projects for various agencies-DRDL, AICTE, & Industries.</li>
+
+                                </ul>    
+                              </p>  
+                            </div>
+                    
+                            <div class="clearfix"></div>
+        
+
+
+                           <p> <h4><font color="green"><img src="img/academic/bullet.png"></img> WORKDONE</font></h4><br>
+                            <b>Auto Align Phase I :</b> Developed a Machine Vision System to evaluate Shell misalignment.</p>
+                            <div>
+                                 <p>
+                                    <ul>
+                                        <li>Sanctioned Amount: Rs. 20.70 Lakhs</li>
+                                         <li>Project Commenced on Dec1999</li>
+                                         <li>Project Completed on Dec 2002</li>
+                                          <li>Research Centre Imarat, Hyderabad</li>
+                                           
+
+                                    </ul>
+                                 </p>
+                            </div>
+                    
+                            <div class="clearfix"></div>
+
+                            <b>AICTE MODROB:</b> Vision Systems Laboratory</p>
+                            <div>
+                                 <p>
+                                    <ul>
+                                        <li>Sanctioned Amount: Rs. 8.00 Lakhs</li>
+                                         <li>Amount Spent: Rs. 13.62 Lakhs.</li>
+                                         <li>Date of commencement: 19.04.2002</li>
+                                          <li>Date of Completion: 19.05.2004</li>
+                                          <li>Duration of the Project: Two Years</li>
+                                           
+
+                                    </ul>
+                                 </p>
+                            </div>
+
+
+                            <div class="clearfix"></div>
+
+                            <b>Auto Align Phase II :</b> To develop a Machine Vision System to evaluate Shell misalignment .</p>
+                            <div>
+                                 <p>
+                                    <ul>
+                                        <li>Sanctioned Amount: Rs. 14.50 Lakhs</li>
+                                    </ul>
+                                 </p>
+                            </div>
+                             <div class="clearfix"></div>
+
+                            <b>Remnant Sheet Metal Project :</b> To develop a Machine Vision System to acquire the images of remnant sheets.</p>
+                            <div>
+                                 <p>
+                                    <ul>
+                                        <li>Amada Soft, Chennai</li>
+                                    </ul>
+                                 </p>
+                            </div><br>
+
+                             <p> <h4><font color="green"><img src="img/academic/bullet.png"></img> SPONSORED PROJECT </font></h4></p>
+                            <div>
+                                 <p>
+                                    <ul>
+                                        <li>Developing a set of Machine Vision experiments for European Union Cross Cultural Programme  on “Virtual Instrumentation on Robotics and Telematics”.</li>
+                                         <li>Repeatability Analysis of Robot using Vision</li>
+                                         <li>Wall following robot</li>
+                                          
+                                           
+                                    </ul>
+                                 </p>
+                                    
+
+                            </div>
+
+                            <div class="clearfix"></div>
+
+                                    <b>Partners</b></p>
+                                    <div>
+                                     <p>
+                                        <ul>
+                                            <li>University of Wurzberg, West Germany,</li>
+                                            <li>University of Madrid, Spain,</li>
+                                            <li>Anna University, Chennai,</li>
+                                            <li>Thiagarajar College of Engineering, Madurai.(CSE, ECE &Mechanical Departments)</li>
+                                        </ul>
+                                     </p>
+                                </div><br>
+
+                             <p> <h4><font color="green"><img src="img/academic/bullet.png"></img> WORKSHOP ORGANISED</font></h4></p>
+                            <div>
+                                 <p>
+                                    <ul>
+                                        <li>Workshop on Machine Vision during 19 & 20 Oct. 2001 @ TCE., Sponsored by M/s. National Instruments, Bangalore and M/s. Online Solutions Chennai</li>
+                                         <li>Workshop on World Class Manufacturing during 16 & 17 Aug.2002 @ TCE Key Resource : Dr.Sheik Meeran University of Birmingham, United Kingdom.</li>
+                                         <li>First National Workshop on Computer Vision, Graphics & Image Processing - WVGIP 2002 during 15-16 Feb.2002 @ TCE, Jointly with IUPRAI, IIT Delhi, ISI Kolkatta and ECE Dept., of TCE</li>
+                                         <li>Second National Workshop on Computer Vision Graphics & Image Processing - WCVGIP 2004</li>
+                                         <li>during 14-15 Feb 2004 @ MITS Gwalior, M.P, Jointly with IUPRAI, IIT Delhi and ECE Dept., of TCE</li>   
+                                         <li>Summer school on Advances in visual object recognition and retrieval jointly with ECE department & IUPRAI, 4-8, July, 2011.</li>
+                                           
+                                    </ul>
+                                 </p>
+                                 
+                            </div>
+                             <div class="clearfix"></div>
+
+                                    <b>CONFERENCE</b></p>
+                                    <div>
+                                     <p>
+                                        <ul>
+                                            <li>5th Indian Conference on Computer Vision, Graphics and Image Processing (ICVGIP – 2006) during 13th -16th December 2006 @ TCE, jointly with IUPRAI, IIT Delhi and ECE Dept., of TCE</li>
+
+                                        </ul>
+                                     </p>
+                                </div><br>
+
+
+                             <p> <h4><font color="green"><img src="img/academic/bullet.png"></img> INTERFACE WITH INDUSTRIES</font></h4></p>
+                            <div>
+                                 <p>
+                                    <ul>
+                                        <li>Research Centre Imarat, Hyderabad (DRDL).</li>
+                                         <li>National Instruments, Bangalore.</li>
+                                         <li>TVS Motor Company, Hosur</li>
+                                         <li>Siemens, Bangalore</li>
+                                         <li>APNA Technology Solutions, Bangalore</li>   
+                                         <li>Sundaram Fasteners, Madurai.</li>
+                                           <li>AMADA Soft India, Chennai</li>
+                                    </ul>
+                                 </p>
+                                 
+                            </div>
+                             <div class="clearfix"></div>
+
+                                    <b>INFRASTRUCTURE</b></p>
+                                    <div>
+                                        </b>Frame Grabber</b>
+                                     <p>
+                                        <ul>
+                                            <li>PC Vision Plus Frame Grabber with 4 MB onboard memory</li>
+                                            
+                                        </ul>
+                                     </p>
+                                </div><br>
+                                 <div>
+                                       <b> Cameras</b>
+                                     <p>
+                                        <ul>
+                                            <li>Two nos. of 2/3” Progressive Scan Cameras</li>
+                                            <li>6mm Micro Camera</li>
+                                            
+                                        </ul>
+                                     </p>
+                                </div><br>
+                                <div>
+                                    <b>    Optics</b>
+                                     <p>
+                                        <ul>
+                                            <li>Standard Lens Kit</li>
+                                            <li>Distortion less Macro lens Kit</li>
+                                            <li>Telecentric lens 55 mm,</li>
+                                            <li>2/3” Close focus Zoom lens 18-108 mm</li>
+                                            <li>Variable Magnification CCD Lens 12.5-75mm</li>
+                                            <li>Varifocal lens and Filters - Red/Green/Blue</li>
+
+                                            
+                                        </ul>
+                                     </p>
+                                </div><br>
+                                <div>
+                                 <b>Illumination Systems</b>
+                                     <p>
+                                        <ul>
+                                            <li>Fiber Optic Illuminator</li>
+                                            <li>LED Ring Light</li>
+                                            
+                                            
+                                            
+                                        </ul>
+                                     </p>
+                                </div><br>
+                                <div>
+                                 <b>Test equipment</b>
+                                 
+                                     <p>
+                                        <ul>
+                                            <li>Focal length Finder</li>
+                                            <li>Depth of Field Target</li>
+                                            <li>Grid Distortion target</li>
+                                            <li>IEEE Target</li>
+                                            <li>Resolution Target for Field & Contrast</li>
+                                            <li>Star Target</li>
+                                            <li>Precision Ronchi Rulings Glass slides</li>
+                                            <li>Concentric Square Target</li>
+                                 <b>Image Analysis Micrometer</b>
+                                            <li>Opal Glass with cross line Target</li>
+                                            <li>Camera copy stands</li>
+                                            <li>XY Metric stage</li>
+                                            
+                                            
+                                        </ul>
+                                     </p>
+                                </div><br>
+                                <div>
+                                 <b>Infrastructure (Softwares)</b>
+                                 
+                                     <p>
+                                        <ul>
+                                            <li>Sherlock 32 Machine Vision Software</li>
+                                            <li>Runtime License for MV tools software</li>
+                                            <li>NI IMAQ Vision Software</li>
+                                            <li>OLIVE Software</li>
+                                            
+
+                                        </ul>
+                                     </p>
+                                </div><br>
+
+                             <p> <h4><font color="green"><img src="img/academic/bullet.png"></img> ACADEMIC RESEARCH</font></h4></p>
+                            <div>
+                                 <p>
+                                    <ul>
+                                    <li>Ph.D work on “Analysing the effect of operating parameters on the accuracy of camera calibration”</li><br>
+                                    <li>P.G. Thesis works on</li><br>
+                                        <ul>
+                                            <li>Error analysis in camera calibration</li>
+                                            <li>Evaluation of calibration methods</li>
+                                            <li>GA for camera calibration</li>
+                                            <li>Camera calibration applications</li>
+                                            <li>Camera calibration accuracy studies with DOE</li>
+
+                                         </ul>  
+                                    <li>U.G. project works on</li><br>
+                                        <ul>
+                                            <li>Machine vision systems</li>
+                                        </ul> 
+                                    </ul>    
+                                 </p>   
+                            </div>
+                            <br><br>
+                            
+                    
+                            
+                            
+
+                        </div>
+                    </div>
+
+                
+                    
+    
+    
+        <!-- Javascript Libraries -->
+        <script src="js/jquery-2.1.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        
+        <script src="vendors/nicescroll/jquery.nicescroll.min.js"></script>
+        <script src="vendors/waves/waves.min.js"></script>
+        <script src="vendors/bootstrap-growl/bootstrap-growl.min.js"></script>
+        <script src="vendors/sweet-alert/sweet-alert.min.js"></script>
+        
+        <script src="js/functions.js"></script>
+        <script src="js/demo.js"></script>
+    
+    
+    </body>
+
+<!-- Mirrored from byrushan.com/projects/ma/v1-3-1/typography.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 04 May 2015 13:18:28 GMT -->
+</html>

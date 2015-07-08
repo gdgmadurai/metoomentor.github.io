@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+    <!--[if IE 9 ]><html class="ie9"><![endif]-->
+    
+<!-- Mirrored from byrushan.com/projects/ma/v1-3-1/typography.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 04 May 2015 13:18:28 GMT -->
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="img/favicon(1).ico" type="image/vnd.microsoft.icon" />
+        <title>Thiagarajar College of Engineering</title>
+    
+        <!-- Vendor CSS -->
+        <link href="vendors/animate-css/animate.min.css" rel="stylesheet">
+        <link href="vendors/sweet-alert/sweet-alert.min.css" rel="stylesheet">
+        <link href="vendors/material-icons/material-design-iconic-font.min.css" rel="stylesheet">
+        <link href="vendors/socicon/socicon.min.css" rel="stylesheet">
+            
+        <!-- CSS -->
+        <link href="css/app.min.1.css" rel="stylesheet">
+        <link href="css/app.min.2.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        <header id="header">   
+            <ul class="header-inner">
+                <li id="menu-trigger" data-trigger="#sidebar">
+                    <div class="line-wrap">
+                        <div class="line top"></div>
+                        <div class="line center"></div>
+                        <div class="line bottom"></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="logo hidden-xs">
+                        <a href="index.html"><img src="img/header.png"></img></a>   
+                    </div> 
+                </li>
+                
+                <li class="pull-right">
+                <ul class="top-menu">
+                    <li id="toggle-width">
+                        <div class="toggle-switch">
+                            <input id="tw-switch" type="checkbox" hidden="hidden">
+                            <label for="tw-switch" class="ts-helper"></label>
+                        </div>
+                    </li>
+                    <li id="top-search">
+                        <a class="tm-search" href="#"></a>
+                    </li>
+                    </ul>
+                </li>
+            </ul>
+            
+            <!-- Top Search Content -->
+            <div id="top-search-wrap">
+                <input type="text">
+                <i id="top-search-close">&times;</i>
+            </div>
+        </header>
+        
+        <section id="main">
+           <aside id="sidebar">
+                <div class="sidebar-inner">
+                    <div class="si-inner">
+                        <div class="profile-menu">
+                            <a href="#">
+                                <div class="profile-pic">
+                                    <img src="img/profile-pics/Mission.jpg" alt="">
+                                </div>
+                                
+                                <div class="profile-info">
+                                    <b>Thiagarajar College of Engineering</b>
+                                    
+                                    <!--<i class="md md-arrow-drop-down"></i>-->
+                                </div>
+                            </a>
+                            
+                            <!--<ul class="main-menu">
+                                <li>
+                                    <a href="profile-about.html"><i class="md md-person"></i> View Profile</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="md md-settings-input-antenna"></i> Privacy Settings</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="md md-settings"></i> Settings</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="md md-history"></i> Logout</a>
+                                </li>
+                            </ul>-->
+                        </div>
+                        
+                        <ul class="main-menu">
+                            <li class="active"><a href="index.html"><i class="md md-home"></i> Home</a></li>
+                            <li><a href="typography.html"><i class="md md-format-underline"></i> Typography</a></li>
+                            <li class="sub-menu">
+                                <a href="#"><i class="md md-now-widgets"></i> Widgets</a>
+
+                                <ul>
+                                    <li><a href="widget-templates.html">Templates</a></li>
+                                    <li><a class="active" href="widgets.html">Widgets</a></li>
+                                </ul>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#"><i class="md md-view-list"></i> Tables</a>
+                
+                                <ul>
+                                    <li><a href="tables.html">Normal Tables</a></li>
+                                    <li><a href="data-tables.html">Data Tables</a></li>
+                                </ul>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#"><i class="md md-my-library-books"></i> Forms</a>
+                
+                                <ul>
+                                    <li><a href="form-elements.html">Basic Form Elements</a></li>
+                                    <li><a href="form-components.html">Form Components</a></li>
+                                    <li><a href="form-examples.html">Form Examples</a></li>
+                                    <li><a href="form-validations.html">Form Validation</a></li>
+                                </ul>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#"><i class="md md-swap-calls"></i>User Interface</a>
+                                <ul>
+                                    <li><a href="colors.html">Colors</a></li>
+                                    <li><a href="animations.html">Animations</a></li>
+                                    <li><a href="box-shadow.html">Box Shadow</a></li>
+                                    <li><a href="buttons.html">Buttons</a></li>
+                                    <li><a href="icons.html">Icons</a></li>
+                                    <li><a href="alerts.html">Alerts</a></li>
+                                    <li><a href="notification-dialog.html">Notifications & Dialogs</a></li>
+                                    <li><a href="media.html">Media</a></li>
+                                    <li><a href="components.html">Components</a></li>
+                                    <li><a href="other-components.html">Others</a></li>
+                                </ul>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#"><i class="md md-trending-up"></i>Charts</a>
+                                <ul>
+                                    <li><a href="flot-charts.html">Flot Charts</a></li>
+                                    <li><a href="other-charts.html">Other Charts</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="calendar.html"><i class="md md-today"></i> Calendar</a></li>
+                            <li><a href="generic-classes.html"><i class="md md-layers"></i> Generic Classes</a></li>
+                            <li class="sub-menu">
+                                <a href="#"><i class="md md-content-copy"></i> Sample Pages</a>
+                                <ul>
+                                    <li><a href="profile-about.html">Profile</a></li>
+                                    <li><a href="list-view.html">List View</a></li>
+                                    <li><a href="messages.html">Messages</a></li>
+                                    <li><a href="login.html">Login and Sign Up</a></li>
+                                    <li><a href="404.html">Error 404</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </aside>
+            
+            <aside id="chat">
+                <ul class="tab-nav tn-justified" role="tablist">
+                    <li role="presentation" class="active"><a href="#friends" aria-controls="friends" role="tab" data-toggle="tab">Friends</a></li>
+                    <li role="presentation"><a href="#online" aria-controls="online" role="tab" data-toggle="tab">Online Now</a></li>
+                </ul>
+            
+                <div class="chat-search">
+                    <div class="fg-line">
+                        <input type="text" class="form-control" placeholder="Search People">
+                    </div>
+                </div>
+            
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane fade in active" id="friends">
+                        <div class="listview">
+                            <a class="lv-item" href="#">
+                                <div class="media">
+                                    <div class="pull-left p-relative">
+                                        <img class="lv-img-sm" src="img/profile-pics/2.jpg" alt="">
+                                        <i class="chat-status-busy"></i>
+                                    </div>
+                                    <div class="media-body">
+                                        <div class="lv-title">Jonathan Morris</div>
+                                        <small class="lv-small">Available</small>
+                                    </div>
+                                </div>
+                            </a>
+            
+                            <a class="lv-item" href="#">
+                                <div class="media">
+                                    <div class="pull-left">
+                                        <img class="lv-img-sm" src="img/profile-pics/1.jpg" alt="">
+                                    </div>
+                                    <div class="media-body">
+                                        <div class="lv-title">David Belle</div>
+                                        <small class="lv-small">Last seen 3 hours ago</small>
+                                    </div>
+                                </div>
+                            </a>
+            
+                            <a class="lv-item" href="#">
+                                <div class="media">
+                                    <div class="pull-left p-relative">
+                                        <img class="lv-img-sm" src="img/profile-pics/3.jpg" alt="">
+                                        <i class="chat-status-online"></i>
+                                    </div>
+                                    <div class="media-body">
+                                        <div class="lv-title">Fredric Mitchell Jr.</div>
+                                        <small class="lv-small">Availble</small>
+                                    </div>
+                                </div>
+                            </a>
+            
+                            <a class="lv-item" href="#">
+                                <div class="media">
+                                    <div class="pull-left p-relative">
+                                        <img class="lv-img-sm" src="img/profile-pics/4.jpg" alt="">
+                                        <i class="chat-status-online"></i>
+                                    </div>
+                                    <div class="media-body">
+                                        <div class="lv-title">Glenn Jecobs</div>
+                                        <small class="lv-small">Availble</small>
+                                    </div>
+                                </div>
+                            </a>
+            
+                            <a class="lv-item" href="#">
+                                <div class="media">
+                                    <div class="pull-left">
+                                        <img class="lv-img-sm" src="img/profile-pics/5.jpg" alt="">
+                                    </div>
+                                    <div class="media-body">
+                                        <div class="lv-title">Bill Phillips</div>
+                                        <small class="lv-small">Last seen 3 days ago</small>
+                                    </div>
+                                </div>
+                            </a>
+            
+                            <a class="lv-item" href="#">
+                                <div class="media">
+                                    <div class="pull-left">
+                                        <img class="lv-img-sm" src="img/profile-pics/6.jpg" alt="">
+                                    </div>
+                                    <div class="media-body">
+                                        <div class="lv-title">Wendy Mitchell</div>
+                                        <small class="lv-small">Last seen 2 minutes ago</small>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="lv-item" href="#">
+                                <div class="media">
+                                    <div class="pull-left p-relative">
+                                        <img class="lv-img-sm" src="img/profile-pics/7.jpg" alt="">
+                                        <i class="chat-status-busy"></i>
+                                    </div>
+                                    <div class="media-body">
+                                        <div class="lv-title">Teena Bell Ann</div>
+                                        <small class="lv-small">Busy</small>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="online">
+                        <div class="listview">
+                            <a class="lv-item" href="#">
+                                <div class="media">
+                                    <div class="pull-left p-relative">
+                                        <img class="lv-img-sm" src="img/profile-pics/2.jpg" alt="">
+                                        <i class="chat-status-busy"></i>
+                                    </div>
+                                    <div class="media-body">
+                                        <div class="lv-title">Jonathan Morris</div>
+                                        <small class="lv-small">Available</small>
+                                    </div>
+                                </div>
+                            </a>
+            
+                            <a class="lv-item" href="#">
+                                <div class="media">
+                                    <div class="pull-left p-relative">
+                                        <img class="lv-img-sm" src="img/profile-pics/3.jpg" alt="">
+                                        <i class="chat-status-online"></i>
+                                    </div>
+                                    <div class="media-body">
+                                        <div class="lv-title">Fredric Mitchell Jr.</div>
+                                        <small class="lv-small">Availble</small>
+                                    </div>
+                                </div>
+                            </a>
+            
+                            <a class="lv-item" href="#">
+                                <div class="media">
+                                    <div class="pull-left p-relative">
+                                        <img class="lv-img-sm" src="img/profile-pics/4.jpg" alt="">
+                                        <i class="chat-status-online"></i>
+                                    </div>
+                                    <div class="media-body">
+                                        <div class="lv-title">Glenn Jecobs</div>
+                                        <small class="lv-small">Availble</small>
+                                    </div>
+                                </div>
+                            </a>
+            
+                            <a class="lv-item" href="#">
+                                <div class="media">
+                                    <div class="pull-left p-relative">
+                                        <img class="lv-img-sm" src="img/profile-pics/7.jpg" alt="">
+                                        <i class="chat-status-busy"></i>
+                                    </div>
+                                    <div class="media-body">
+                                        <div class="lv-title">Teena Bell Ann</div>
+                                        <small class="lv-small">Busy</small>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        
+        
+            <section id="content">
+                <div class="container">
+                    <div class="block-header">
+                        
+                    
+                        
+                    
+                    </div>
+                
+                 
+                
+                    <div class="card">
+                        
+                        <div class="card-body card-padding">
+                           
+                    
+                            <div class="clearfix"></div>
+                    
+                            <center><h2><b>Research Scholars</b></h2>
+                           </center>
+                           <p> <h4><font color="green"><img src="img/academic/bullet.png"></img> Full Time Ph.D. / M.S. (by research) / M.Phil. Programme</font></h4></p>
+                           
+                    
+                            <div class="clearfix"></div>
+        
+
+
+                           
+                            <div>
+                                 <p>
+                                    <ul>
+                                        <li>Candidates should enroll and register at TCE on getting provisional registration letter from the university and renew their registration during 1st week of Feb / Aug every semester.The ISO format QR/C8-04 should be used for enrollment / renewal.</li>
+                                         <li>Candidates under full time shall do research work in the college and shall be available during all working days (except vacation) for curricular, co curricular and related activities. The attendance shall be maintained at the department.</li>
+                                         <li>The supervisor for the candidates working under the projects and registered for his/her Ph.D. under full time basis should be the Principal co coordinator / Investigator.</li>
+                                          <li>Candidates should pay a fee as prescribed by the institution from time to time towards the usage of internet and other facilities. The fees should be paid in 1st week of Feb / Aug every semester till the submission date of the thesis to the university.</li>
+                                           <li>Candidates should present his/her progress of research in the review meeting once in six months during 3rd week of Feb /Aug and submit the Half Yearly Progress Review Report (HYPRR) in the prescribed format (ISO format: QR/C8-05)to the department in which they have registered. The schedule for the review meeting would be prepared and announced by the department.
+Candidates should forward all the letters / communications / submissions in connection with his/her research such as Application to undertake the program at TCE, Minutes of the research meetings, Change of guide request, Change of registration (Part time to Full time and vice versa), Synopsis, Thesis, etc., to the University through proper channel (i.e. Guide, Head of the Department and Principal).</li>
+                                    <li>A copy of Pd.D. / M.S. Thesis should be submitted to the College Library.</li>
+                                    <li>Change of category from Full time to Part time registration shall be permitted subject to the recommendations of the research committee and approval of the Principal.</li>
+                                    <li>Besides, candidates should adhere to the regulations of the affiliating university.</li>
+                                    <br><br>
+
+                                    <font color="green"><h4><b>Leave norms:</b></font></h4><br>
+                                    
+                                        <p>
+                                            <ol>
+                                                <li>Category 1 (Research / Project fellows)    : As specified by the sponsoring agency.</li>
+                                                <li>Category 2 (Quality Improvement Program QIP)    : As per the norms of the sponsoring institute and the leave availed by the scholars would be forwarded to the sponsoring institute once in a year.</li>
+                                                <li>Category 3 (Fellow ship granted for Ph.D.)    : Leave with stipend not exceeding 20 days every year (pro-rata basis) may be allowed by the guide / Head of the department with the concurrence of the head of the Institution. Sanction of leave without stipend (more than 20 days in any calendar year or more than eligible leave in case of uncompleted year) may be considered by the Institute under special circumstances under the intimation to the fellowship sponsoring agency. However, the leave without stipend would be excluded from the period of his/her Ph.D. Programme. i.e. The minimum period of submission (duration) of his/her thesis would be increased by the extend he/she avails leave without stipend.</li>
+                                                <li>Category 4 (Without any grant for Ph.D.)    : Leave not exceeding 20 days every year (pro-rata basis) may be allowed by the guide / Head of the department with the concurrence of the head of the Institution. Sanction of leave beyond eligible leave (20 days for full in any calendar year or eligible leave in case of uncompleted year) may be considered by the Institute under special circumstances. However, those leave sanctioned more than eligible days in a year would be excluded from the period of his/her Ph.D. Programme. i.e. The minimum period of submission (duration) of his/her thesis would be increased by the extend he/she avails leave more than his/her eligibility in a year.</li>
+
+                                             </ol>   
+                                        </p>    
+                                        <div>
+                                            <p>
+                                                <b>General:</b> Full time research scholars should sign the attendance register on all working days. Their leave must be approved by the institution before they avail leave.
+                                            </p>    
+                                         </div> <br>
+
+                                          <p> <h4><font color="green"><img src="img/academic/bullet.png"></img> Part Time Ph.D. / M.S. (by research) / M.Phil. Programme – External candidates</font></h4></p>
+                           
+                    
+                            <div class="clearfix"></div>
+        
+
+
+                           
+                            <div>
+                                 <p>
+                                    <ul>
+                                        <li>Candidates should enroll and register at TCE on getting provisional registration letter from the university and renew their registration during 1st week of Feb / Aug every semester. The ISO format QR/C8-04 should be used for enrollment / renewal.</li>
+                                         <li>Candidates shall meet the guide regularly during the course of his/her research in the college and the attendance shall be maintained at the department.</li>
+                                         <li>Candidates should pay a fee as prescribed by the institution from time to time towards the usage of internet and other facilities. The fees should be paid in 1st week of Feb / Aug every semester till the submission date of the thesis to the university.</li>
+                                          <li>Candidates should present his/her progress of research in the review meeting once in six months during 3rd week of Feb /Aug and submit the Half Yearly Progress Review Report (HYPRR) in the prescribed format (ISO format: QR/C8-05)to the department in which they have registered. The schedule for the review meeting would be prepared and announced by the department.</li>
+                                           <li>Candidates should forward all the letters / communications / submissions in connection with his/her research such as Application to undertake the program at TCE, Minutes of the research meetings, Change of guide request, Change of registration (Part time to Full time and vice versa), Synopsis, Thesis, etc., to the University through proper channel (i.e. Guide, Head of the Department and Principal).</li>
+                                    <li>A copy of Pd.D. / M.S. Thesis should be submitted to the College Library.</li>
+                                    <li>Change of category from Part time to Full time registration shall be permitted subject to the recommendations of the research committee and approval of the Principal.</li>
+                                    <li>Besides, candidates should adhere to the regulations of the affiliating university.</li>
+                                    <br><br>
+
+                                   
+                                    </ul>
+                                 </p>
+                            </div>
+                    
+                            <div class="clearfix"></div>
+
+                             <p> <h4><font color="green"><img src="img/academic/bullet.png"></img> Part Time Ph.D. / M.S. (by research) / M.Phil. Programme – TCE faculty and staff</font></h4></p>
+                           
+                    
+                            <div class="clearfix"></div>
+        
+
+
+                           
+                            <div>
+                                 <p>
+                                    <ul>
+                                        <li>Candidates should enroll and register at TCE on getting provisional registration letter from the university and renew their registration during 1st week of Feb / Aug every semester. The ISO format QR/C8-04 should be used for enrollment / renewal.</li>
+                                         <li>Candidates shall meet the guide regularly during the course of his/her research in the college and the attendance shall be maintained at the department.</li>
+                                         <li>Candidates should pay a fee as prescribed by the institution from time to time towards the usage of internet and other facilities. The fees should be paid in 1st week of Feb / Aug every semester till the submission date of the thesis to the university.</li>
+                                          <li>Candidates should present his/her progress of research in the review meeting once in six months during 3rd week of Feb /Aug and submit the Half Yearly Progress Review Report (HYPRR) in the prescribed format (ISO format: QR/C8-05)to the department in which they have registered. The schedule for the review meeting would be prepared and announced by the department.</li>
+                                           <li>Candidates should forward all the letters / communications / submissions in connection with his/her research such as Application to undertake the program at TCE, Minutes of the research meetings, Change of guide request, Change of registration (Part time to Full time and vice versa), Synopsis, Thesis, etc., to the University through proper channel (i.e. Guide, Head of the Department and Principal).</li>
+                                    <li>A copy of Pd.D. / M.S. Thesis should be submitted to the College Library.</li>
+                                    <li>Change of category from Part time to Full time registration shall be permitted subject to the recommendations of the research committee and approval of the Principal.</li>
+                                    <li>Besides, candidates should adhere to the regulations of the affiliating university.</li>
+                                    <br><br>
+
+                                    
+                                    
+                                        
+                                        <p> <h4><font color="green"><img src="img/academic/bullet.png"></img> Research Supervisors:</font></h4></p>
+
+                            
+                            
+
+                        </div>
+                             <div>
+                                 <p>
+                                    <ul>
+                                        <li>The maximum number of scholars as supervisor /joint supervisor should be 10. Prior approval / permission should be obtained when there arises a need to guide more than ten scholars under special / extraordinary / unordinary circumstances.</li>
+                                         <li>Supervisors should closely monitor the conduct, fee payments and progress of each the scholar, and forward the HYPRRR (ISO format: QR/C8-05) to the Principal once in six months (Feb / Aug).</li>
+                                         <li>Supervisors should submit the research output such as patents, publications, awards etc., to the Principal for college records in the ISO formats QR/C8- 17, QR/C8- 18, QR/C8- 19 and QR/C8- 20.</li>
+                                          <li>Supervisor should ensure the clearance of the all dues, submission of thesis copy to the library and payment research fees by the scholar before the final copy of the thesis and Viva voce report is forwarded to the university.</li>
+                                          
+                                    <br><br>
+                                 </div>   
+
+                                    <div>
+                                 <p>
+                                    <ul>
+                                        <font size="3px"><li><a href="img/pdf/Aca_Res_Process_Flow.pdf" target="_blank">Process Chart for Academic Research</a></li><br>
+                                        <li><a href="img/pdf/Aca_Res_ISO_FORMATS.pdf" target="_blank" download>Download Formats for Academic Research</a></li><br>
+                                        <li><a href="img/pdf/PhD_Produced_Ongoing.pdf" target="_blank" download>PhD Produced/Ongoing</a></li></font>
+                                        
+                                          
+                                    <br><br>
+
+                                    
+                                    
+                                        
+                                        <br>
+
+                            
+                            
+
+                        </div>
+
+
+                    </div>
+
+                
+                    
+    
+    
+        <!-- Javascript Libraries -->
+        <script src="js/jquery-2.1.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        
+        <script src="vendors/nicescroll/jquery.nicescroll.min.js"></script>
+        <script src="vendors/waves/waves.min.js"></script>
+        <script src="vendors/bootstrap-growl/bootstrap-growl.min.js"></script>
+        <script src="vendors/sweet-alert/sweet-alert.min.js"></script>
+        
+        <script src="js/functions.js"></script>
+        <script src="js/demo.js"></script>
+    
+    
+    </body>
+
+<!-- Mirrored from byrushan.com/projects/ma/v1-3-1/typography.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 04 May 2015 13:18:28 GMT -->
+</html>

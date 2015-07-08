@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+    <!--[if IE 9 ]><html class="ie9"><![endif]-->
+    
+<!-- Mirrored from byrushan.com/projects/ma/v1-3-1/typography.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 04 May 2015 13:18:28 GMT -->
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="img/favicon(1).ico" type="image/vnd.microsoft.icon" />
+        <title>Thiagarajar College of Engineering</title>
+    
+        <!-- Vendor CSS -->
+        <link href="vendors/animate-css/animate.min.css" rel="stylesheet">
+        <link href="vendors/sweet-alert/sweet-alert.min.css" rel="stylesheet">
+        <link href="vendors/material-icons/material-design-iconic-font.min.css" rel="stylesheet">
+        <link href="vendors/socicon/socicon.min.css" rel="stylesheet">
+            
+        <!-- CSS -->
+        <link href="css/app.min.1.css" rel="stylesheet">
+        <link href="css/app.min.2.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        <header id="header">   
+            <ul class="header-inner">
+                <li id="menu-trigger" data-trigger="#sidebar">
+                    <div class="line-wrap">
+                        <div class="line top"></div>
+                        <div class="line center"></div>
+                        <div class="line bottom"></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="logo hidden-xs">
+                        <a href="index.html"><img src="img/header.png"></img></a>   
+                    </div> 
+                </li>
+                
+                <li class="pull-right">
+                <ul class="top-menu">
+                    <li id="toggle-width">
+                        <div class="toggle-switch">
+                            <input id="tw-switch" type="checkbox" hidden="hidden">
+                            <label for="tw-switch" class="ts-helper"></label>
+                        </div>
+                    </li>
+                    <li id="top-search">
+                        <a class="tm-search" href="#"></a>
+                    </li>
+                    </ul>
+                </li>
+            </ul>
+            
+            <!-- Top Search Content -->
+            <div id="top-search-wrap">
+                <input type="text">
+                <i id="top-search-close">&times;</i>
+            </div>
+        </header>
+        
+        <section id="main">
+           <aside id="sidebar">
+                <div class="sidebar-inner">
+                    <div class="si-inner">
+                        <div class="profile-menu">
+                            <a href="#">
+                                <div class="profile-pic">
+                                    <img src="img/profile-pics/Mission.jpg" alt="">
+                                </div>
+                                
+                                <div class="profile-info">
+                                    <b>Thiagarajar College of Engineering</b>
+                                    
+                                    <!--<i class="md md-arrow-drop-down"></i>-->
+                                </div>
+                            </a>
+                            
+                            <!--<ul class="main-menu">
+                                <li>
+                                    <a href="profile-about.html"><i class="md md-person"></i> View Profile</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="md md-settings-input-antenna"></i> Privacy Settings</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="md md-settings"></i> Settings</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="md md-history"></i> Logout</a>
+                                </li>
+                            </ul>-->
+                        </div>
+                        
+                        <ul class="main-menu">
+                            <li class="active"><a href="index.html"><i class="md md-home"></i> Home</a></li>
+                            <li><a href="abouttce.html"><i class="md md-format-underline"></i> About TCE</a></li>
+                            
+                            <li><a href="#"><i class="md md-trending-up"></i> Admission</a></li>
+                            <li><a href="#"><i class="md md-swap-calls"></i> Departments</a></li>
+                            <li><a href="#"><i class="md md-my-library-books"></i> Research</a></li>
+                            <li><a href="#"><i class="md md-today"></i> Contact Us</a></li>
+                            <!--<li><a href="typography.html"><i class="md md-format-underline"></i> Typography</a></li>
+                            <li class="sub-menu">
+                                <a href="#"><i class="md md-now-widgets"></i> Widgets</a>
+
+                                <ul>
+                                    <li><a href="widget-templates.html">Templates</a></li>
+                                    <li><a class="active" href="widgets.html">Widgets</a></li>
+                                </ul>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#"><i class="md md-view-list"></i> Tables</a>
+                
+                                <ul>
+                                    <li><a href="tables.html">Normal Tables</a></li>
+                                    <li><a href="data-tables.html">Data Tables</a></li>
+                                </ul>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#"><i class="md md-my-library-books"></i> Forms</a>
+                
+                                <ul>
+                                    <li><a href="form-elements.html">Basic Form Elements</a></li>
+                                    <li><a href="form-components.html">Form Components</a></li>
+                                    <li><a href="form-examples.html">Form Examples</a></li>
+                                    <li><a href="form-validations.html">Form Validation</a></li>
+                                </ul>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#"><i class="md md-swap-calls"></i>User Interface</a>
+                                <ul>
+                                    <li><a href="colors.html">Colors</a></li>
+                                    <li><a href="animations.html">Animations</a></li>
+                                    <li><a href="box-shadow.html">Box Shadow</a></li>
+                                    <li><a href="buttons.html">Buttons</a></li>
+                                    <li><a href="icons.html">Icons</a></li>
+                                    <li><a href="alerts.html">Alerts</a></li>
+                                    <li><a href="notification-dialog.html">Notifications & Dialogs</a></li>
+                                    <li><a href="media.html">Media</a></li>
+                                    <li><a href="components.html">Components</a></li>
+                                    <li><a href="other-components.html">Others</a></li>
+                                </ul>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#"><i class="md md-trending-up"></i>Charts</a>
+                                <ul>
+                                    <li><a href="flot-charts.html">Flot Charts</a></li>
+                                    <li><a href="other-charts.html">Other Charts</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="calendar.html"><i class="md md-today"></i> Calendar</a></li>
+                            <li><a href="generic-classes.html"><i class="md md-layers"></i> Generic Classes</a></li>
+                            <li class="sub-menu">
+                                <a href="#"><i class="md md-content-copy"></i> Sample Pages</a>
+                                <ul>
+                                    <li><a href="profile-about.html">Profile</a></li>
+                                    <li><a href="list-view.html">List View</a></li>
+                                    <li><a href="messages.html">Messages</a></li>
+                                    <li><a href="login.html">Login and Sign Up</a></li>
+                                    <li><a href="404.html">Error 404</a></li>
+                                </ul>
+                            </li>-->
+                        </ul>
+                    </div>
+                </div>
+            </aside>
+            
+            <aside id="chat">
+                <ul class="tab-nav tn-justified" role="tablist">
+                    <li role="presentation" class="active"><a href="#friends" aria-controls="friends" role="tab" data-toggle="tab">Friends</a></li>
+                    <li role="presentation"><a href="#online" aria-controls="online" role="tab" data-toggle="tab">Online Now</a></li>
+                </ul>
+            
+                <div class="chat-search">
+                    <div class="fg-line">
+                        <input type="text" class="form-control" placeholder="Search People">
+                    </div>
+                </div>
+            
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane fade in active" id="friends">
+                        <div class="listview">
+                            <a class="lv-item" href="#">
+                                <div class="media">
+                                    <div class="pull-left p-relative">
+                                        <img class="lv-img-sm" src="img/profile-pics/2.jpg" alt="">
+                                        <i class="chat-status-busy"></i>
+                                    </div>
+                                    <div class="media-body">
+                                        <div class="lv-title">Jonathan Morris</div>
+                                        <small class="lv-small">Available</small>
+                                    </div>
+                                </div>
+                            </a>
+            
+                            <a class="lv-item" href="#">
+                                <div class="media">
+                                    <div class="pull-left">
+                                        <img class="lv-img-sm" src="img/profile-pics/1.jpg" alt="">
+                                    </div>
+                                    <div class="media-body">
+                                        <div class="lv-title">David Belle</div>
+                                        <small class="lv-small">Last seen 3 hours ago</small>
+                                    </div>
+                                </div>
+                            </a>
+            
+                            <a class="lv-item" href="#">
+                                <div class="media">
+                                    <div class="pull-left p-relative">
+                                        <img class="lv-img-sm" src="img/profile-pics/3.jpg" alt="">
+                                        <i class="chat-status-online"></i>
+                                    </div>
+                                    <div class="media-body">
+                                        <div class="lv-title">Fredric Mitchell Jr.</div>
+                                        <small class="lv-small">Availble</small>
+                                    </div>
+                                </div>
+                            </a>
+            
+                            <a class="lv-item" href="#">
+                                <div class="media">
+                                    <div class="pull-left p-relative">
+                                        <img class="lv-img-sm" src="img/profile-pics/4.jpg" alt="">
+                                        <i class="chat-status-online"></i>
+                                    </div>
+                                    <div class="media-body">
+                                        <div class="lv-title">Glenn Jecobs</div>
+                                        <small class="lv-small">Availble</small>
+                                    </div>
+                                </div>
+                            </a>
+            
+                            <a class="lv-item" href="#">
+                                <div class="media">
+                                    <div class="pull-left">
+                                        <img class="lv-img-sm" src="img/profile-pics/5.jpg" alt="">
+                                    </div>
+                                    <div class="media-body">
+                                        <div class="lv-title">Bill Phillips</div>
+                                        <small class="lv-small">Last seen 3 days ago</small>
+                                    </div>
+                                </div>
+                            </a>
+            
+                            <a class="lv-item" href="#">
+                                <div class="media">
+                                    <div class="pull-left">
+                                        <img class="lv-img-sm" src="img/profile-pics/6.jpg" alt="">
+                                    </div>
+                                    <div class="media-body">
+                                        <div class="lv-title">Wendy Mitchell</div>
+                                        <small class="lv-small">Last seen 2 minutes ago</small>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="lv-item" href="#">
+                                <div class="media">
+                                    <div class="pull-left p-relative">
+                                        <img class="lv-img-sm" src="img/profile-pics/7.jpg" alt="">
+                                        <i class="chat-status-busy"></i>
+                                    </div>
+                                    <div class="media-body">
+                                        <div class="lv-title">Teena Bell Ann</div>
+                                        <small class="lv-small">Busy</small>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="online">
+                        <div class="listview">
+                            <a class="lv-item" href="#">
+                                <div class="media">
+                                    <div class="pull-left p-relative">
+                                        <img class="lv-img-sm" src="img/profile-pics/2.jpg" alt="">
+                                        <i class="chat-status-busy"></i>
+                                    </div>
+                                    <div class="media-body">
+                                        <div class="lv-title">Jonathan Morris</div>
+                                        <small class="lv-small">Available</small>
+                                    </div>
+                                </div>
+                            </a>
+            
+                            <a class="lv-item" href="#">
+                                <div class="media">
+                                    <div class="pull-left p-relative">
+                                        <img class="lv-img-sm" src="img/profile-pics/3.jpg" alt="">
+                                        <i class="chat-status-online"></i>
+                                    </div>
+                                    <div class="media-body">
+                                        <div class="lv-title">Fredric Mitchell Jr.</div>
+                                        <small class="lv-small">Availble</small>
+                                    </div>
+                                </div>
+                            </a>
+            
+                            <a class="lv-item" href="#">
+                                <div class="media">
+                                    <div class="pull-left p-relative">
+                                        <img class="lv-img-sm" src="img/profile-pics/4.jpg" alt="">
+                                        <i class="chat-status-online"></i>
+                                    </div>
+                                    <div class="media-body">
+                                        <div class="lv-title">Glenn Jecobs</div>
+                                        <small class="lv-small">Availble</small>
+                                    </div>
+                                </div>
+                            </a>
+            
+                            <a class="lv-item" href="#">
+                                <div class="media">
+                                    <div class="pull-left p-relative">
+                                        <img class="lv-img-sm" src="img/profile-pics/7.jpg" alt="">
+                                        <i class="chat-status-busy"></i>
+                                    </div>
+                                    <div class="media-body">
+                                        <div class="lv-title">Teena Bell Ann</div>
+                                        <small class="lv-small">Busy</small>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        
+        
+            <section id="content">
+                <div class="container">
+                    <div class="block-header">
+                        
+                    
+                        
+                    
+                    </div>
+                
+                 
+                
+                    <div class="card">
+                        
+                        <div class="card-body card-padding">
+                           
+                    
+                            <div class="clearfix"></div>
+                    
+                            <center><h2>About TCE</h2><br><br>
+                            <p>Thiagarajar College of Engineering(TCE), Madurai, an ISO 9001:2008 certified Institution affiliated to Anna University is one among the several educational and philanthropic institutions founded by Philanthropist and Industrialist Late. Shri. Karumuttu Thiagarajan Chettiar. It was established in the year 1957.</p></center>
+
+                            <div>
+                                <center>
+                                    <p>
+                                         TCE is funded by Central & State Governments and Management. The courses offered in TCE are approved by the All India Council for Technical Education, New Delhi. It was granted Autonomy in the year 1987. TCE has been accredited by the National Board of Accreditation. TCE offers Seven Undergraduate Programmes, Fourteen Postgraduate Programmes and Doctoral Programmes in Engineering, Science and Architecture.
+                                    </p>    
+                                 </center>   
+                            </div>    
+                    
+                            <div class="clearfix"></div>
+                    
+                            <h4>Attention to the Candidates</h4>
+                            <p><img src="img/academic/bullet.png"> The applicant is requested to submit the application through online.</p>
+                    
+                            <div class="clearfix"></div>
+
+
+                            <p><img src="img/academic/bullet.png"> Last date for the submission of online Application: 25-05-2015.</p>
+                    
+                            <div class="clearfix"></div>
+                    
+                            <h5>For Online Application</h5>
+                            <p><a href="http://hr.tce.edu/faculty_recruitment/">Click Here</a></p>
+                    
+                            <div class="clearfix"></div>
+                    
+                            <h4>Qualifications</h4>
+                            <br>
+                            <h5><font color="green"><b>Mechatronics DISCIPLINE - Qualifications & Experience:</b></font></h5><br>
+                            
+                            <p>
+                                <p class="c-black"><h5>PROFESSOR:</h5></p>
+                    
+                                    <ol>
+                                        <li>B.E/B.Tech and M.E. / M.Tech in Computer Science and Engineering /Information Technology with First Class or equivalent either in B.E/B.Tech or M.E./M.Tech
+    AND Ph.D or equivalent, in Computer Science and Engineering /Information Technology.  Post Ph.D. publications and guiding Ph.D. student is highly desirable.</li><br>
+                                        <li><p>Minimum of 10 years teaching / research/ industrial experience of which at least 5 years should be at the level of Associate Professor
+       OR
+       Minimum of 13 years experience in teaching and / or Research and / or Industry.</p>
+       <p> In case of  research experience, good academic record and books / research paper publications / IPR/ patents record shall be required as deemed fit by the expert members of the Selection Committee.</p>
+        <p>If the experience in industry is considered, the same shall be at managerial level equivalent to Associate Professor with active participation record in devising / designing, planning, executing, analyzing, quality control, innovating, training, technical books / research paper publications / IPR / patents etc as deemed fit by the expert members of the Selection Committee.</p></li><br>
+                                        <li>Applicants with no arrears are preferable.  However applicants with a history of arrears in two subjects are also eligible.</li><br>
+                                        Pay Band        : Rs.37400-67000
+                                    </ol>
+                            </p>
+                            <p>
+                                <p class="c-black"><h5>ASSISTANT PROFESSOR  :</h5></p>
+                    
+                                    <ol>
+                                        <li>BE / B.Tech and ME /M.Tech in Mechatronics/Mechanical/Electronics with first class or equivalent either in BE / B.Tech or ME/M.Tech.</li><br>
+                                        <li><p> Applicants with no arrears are preferable.  However applicants with a history of arrears in two subjects are also eligible.</p>
+       
+                                        <br>
+                                        Pay Band        : Rs.15600-39100
+                                    </ol>
+                            </p><br><br>
+                            <h5><font color="green"><b>Information Technology  DISCIPLINE - Qualifications & Experience:</b></font></h5><br>
+                            
+                            <p>
+                                <p class="c-black"><h5>PROFESSOR:</h5></p>
+                    
+                                    <ol>
+                                        <li>B.E/B.Tech and M.E. / M.Tech in Computer Science and Engineering /Information Technology with First Class or equivalent either in B.E/B.Tech or M.E./M.Tech
+AND Ph.D or equivalent, in Computer Science and Engineering /Information Technology.  Post Ph.D. publications and guiding Ph.D. student is highly desirable.</li><br>
+                                        <li><p> Minimum of 10 years teaching / research/ industrial experience of which at least 5 years should be at the level of Associate Professor
+      OR
+      Minimum of 13 years experience in teaching and / or Research and / or Industry.</p>
+       <p> In case of  research experience, good academic record and books / research paper publications / IPR/ patents record shall be required as deemed fit by the expert members of the Selection Committee.</p>
+        <p> If the experience in industry is considered, the same shall be at managerial level equivalent to Associate Professor with active participation record in  devising / designing, planning, executing, analyzing, quality control, innovating, training, technical books / research paper publications / IPR / patents etc as deemed fit by the expert members of the Selection Committee.</p></li><br>
+                                        <li>Applicants with no arrears are preferable.  However applicants with a history of arrears in two subjects are also eligible.</li><br>
+                                        Pay Band        : Rs.37400-67000
+                                    </ol>
+                            </p>
+                            <p>
+                                <p class="c-black"><h5>ASSISTANT PROFESSOR  :</h5></p>
+                    
+                                    <ol>
+                                        <li> BE / B.Tech and ME /M.Tech in Computer Science and Engineering /Information Technology with first class or equivalent either in BE / B.Tech or ME/M.Tech.</li><br>
+                                        <li><p>Applicants with no arrears are preferable.  However applicants with a history of arrears in two subjects are also eligible.</p>
+       
+                                        <br>
+                                        Pay Band        : Rs.15600-39100
+                                    </ol>
+                            </p><br><br>
+                            <h5><font color="green"><b>ARCHITECTURE DISCIPLINE - Qualifications & Experience:</b></font></h5><br>
+                            <p>
+                                <p class="c-black"><h5>ASSISTANT PROFESSOR  :</h5></p>
+                    
+                                    <ol>
+                                        <li>  Bachelors and Masters Degree in Architecture with First Class or equivalent either in Bachelors or Masters Degree.</li><br>
+                                        <li><p>Applicants with no arrears are preferable.  However applicants with a history of arrears in two subjects are also eligible.</p>
+       
+                                        <br>
+                                        Pay Band        : Rs.15600-39100
+                                    </ol>
+                            </p><br>
+                            <center><h3>Advertisement Copy</h3></center><br>
+                            <center><img src="img/news/advertisement_sf_courses.jpg" alt=""></center>
+
+                                
+                            
+
+                        </div>
+                    </div>
+
+                
+                    
+    
+    
+        <!-- Javascript Libraries -->
+        <script src="js/jquery-2.1.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        
+        <script src="vendors/nicescroll/jquery.nicescroll.min.js"></script>
+        <script src="vendors/waves/waves.min.js"></script>
+        <script src="vendors/bootstrap-growl/bootstrap-growl.min.js"></script>
+        <script src="vendors/sweet-alert/sweet-alert.min.js"></script>
+        
+        <script src="js/functions.js"></script>
+        <script src="js/demo.js"></script>
+    
+    
+    </body>
+
+<!-- Mirrored from byrushan.com/projects/ma/v1-3-1/typography.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 04 May 2015 13:18:28 GMT -->
+</html>
