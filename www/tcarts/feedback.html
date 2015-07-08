@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+    <!--[if IE 9 ]><html class="ie9"><![endif]-->
+    
+<!-- Mirrored from byrushan.com/projects/ma/v1-3-1/form-components.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 04 May 2015 13:18:57 GMT -->
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Feedback Form - Thiagarajar College</title>
+
+        <!-- Vendor CSS -->
+        <link href="vendors/animate-css/animate.min.css" rel="stylesheet">
+        <link href="vendors/noUiSlider/jquery.nouislider.min.css" rel="stylesheet">
+        <link href="vendors/farbtastic/farbtastic.css" rel="stylesheet">
+        <link href="vendors/summernote/summernote.css" rel="stylesheet">
+        <link href="vendors/sweet-alert/sweet-alert.min.css" rel="stylesheet">
+        <link href="vendors/material-icons/material-design-iconic-font.min.css" rel="stylesheet">
+        <link href="vendors/socicon/socicon.min.css" rel="stylesheet">
+        <link rel="shortcut icon" href="img/profile-pics/favicon.ico">
+            
+        <!-- CSS -->
+        <link href="css/app.min.1.css" rel="stylesheet">
+        <link href="css/app.min.2.css" rel="stylesheet">
+        
+        <!-- Following CSS are used only for the Demp purposes thus you can remove this anytime. -->
+        <style type="text/css">
+            .toggle-switch .ts-label {
+                min-width: 130px;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <header id="header">
+            <ul class="header-inner">
+                <li id="menu-trigger" data-trigger="#sidebar">
+                    <div class="line-wrap">
+                        <div class="line top"></div>
+                        <div class="line center"></div>
+                        <div class="line bottom"></div>
+                    </div>
+                </li>
+            
+               
+                <li><a href="index.html">
+                  <embed src="img/profile-pics/logo.swf" quality="high" wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="90" height="90" align="left">
+                  <font face="algerian" color="white" size="6px">&nbsp;Thiagarajar College</font><br><font face="arial" size="4px" color="white">&nbsp;&nbsp;&nbsp;An Autonomous Institution Affiliated to MKU</font></a>
+
+                  <!--<img src="img/profile-pics/img.png" align="right"> -->
+                  <!--<p> An Autonomous Institution Affiliated to Madurai Kamaraj University</p>
+                  <p>(Re-Accredited with "A" Grade by NAAC in the 3rd Cycle with a CGPA of 3.37)-->
+</p>
+                </li>    
+                
+                <li class="pull-right">
+                <ul class="top-menu">
+                    <li id="toggle-width">
+                        <div class="toggle-switch">
+                            <input id="tw-switch" type="checkbox" hidden="hidden">
+                            <label for="tw-switch" class="ts-helper"></label>
+                        </div>
+                    </li>
+                    <li id="top-search">
+                        <a class="tm-search" href="#"></a>
+                    </li>
+                   <li id="top-facebook">
+                        <a href="http://www.facebook.com/pages/Thiagarajar-College/215355858544255" target="_blank"><font color="white" size="6px"><i class="socicon socicon-facebook"></i></font></a>
+                    </li>
+                    <li id="top-twitter">
+                        <a href="http://www.twitter.com/tcarts1949" target="_blank"><font color="white" size="6px"><i class="socicon socicon-twitter"></i></font></a>
+                    </li>
+                    <li id="top-feedback">
+                        <a href="feedback.html" target="_blank"><font color="white" size="6px"><i class="md md-reply"></i></font></a>
+                    </li>
+            </ul>
+            
+            <!-- Top Search Content -->
+            
+            <div id="top-search-wrap">
+                <input type="text">
+                <i id="top-search-close">&times;</i>
+            </div>
+        </header>
+        
+        <section id="main">
+            <aside id="sidebar">
+                <div class="sidebar-inner">
+                    <div class="si-inner">
+                        <div class="profile-menu">
+                            <a href="index.html">
+                                <div class="profile-pic">
+                                    <img src="img/profile-pics/logo.png" alt="">
+                                </div>
+                
+                                <div class="profile-info">
+                                    <b><font size="4px">Thiagarajar College</font></b>
+                
+                                   <!-- <i class="md md-arrow-drop-down"></i>-->
+                                </div>
+                            </a>
+                
+                            
+                        </div>
+                
+                          <ul class="main-menu">
+                             <li class="sub-menu active toggled">
+                                <a href="#"><i class="md md-history"></i> History</a>
+
+                                <ul>
+                                    <li><a class="active" href="history.html">History</a></li>
+                                    <li><a href="milestone.html">Milestones</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="sub-menu">
+                                <a href="#"><i class="md md-format-underline"></i> Administration</a>
+
+                                <ul>
+                                    <li><a href="management.html" class="active">Management</a></li>
+                                    <li><a href="#">Principal</a></li>
+                                   <li><a href="#">Governing Body</a></li>
+                                   <li><a href="#">Academic Council / Board of Studies</a></li>
+                                   <li><a href="#">Awards Committee</a></li>
+                                   <li><a href="#">Deans</a></li>
+                                   <li><a href="#">Controller of Examinations</a></li>
+                                   <li><a href="#">IQAC - NAAC</a></li>
+                                   <li><a href="#">Committees</a></li>
+                                   <li><a href="#">Policies</a></li>
+                                   <li><a href="#">Former Principals</a></li>
+                                   <li><a href="#">RTI Act</a></li>
+                                </ul>
+                            </li>
+                           
+                            
+                            <li class="sub-menu">
+                                <a href="#"><i class="md md-now-widgets"></i> Academics</a>
+
+                                <ul>
+                                    <li><a class="active" href="programmes.html">Programmes Offered</a></li>
+                                    <li><a href="academic.html">Academic Departments</a></li>
+                                    <li><a href="nonacademic.html">Non-Academic Departments</a></li>
+                                   <li><a href="#">Curriculum and Syllabus</a></li>
+                                   <li><a href="#"> Academic Calendar</a></li>
+                                   <li><a href="#">Awards and Honours</a></li>
+                                   <li><a href="#">Women's Studies Centre</a></li>
+                                   <li><a href="#">IGNOU Centre</a></li>
+                                   <li><a href="#"> National Testing Service</a></li>
+                                   <li><a href="#"> Saiva Siddhandham Training Programme</a></li>
+                                   <li><a href="#">Publication Division</a></li>
+                                   <li><a href="#">Management Programme</a></li>
+                                   <li><a href="#">Tamil Music Research Centre</a></li>
+                                   <li><a href="#">Centre of Excellence</a></li>
+                                </ul>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#"><i class="md md-view-list"></i> Students</a>
+                
+                                <ul>
+                                    <li><a class="active" href="scholarship.html">Scholarship</a></li>
+                                    <li><a href="#">Star College Scheme</a></li>
+                                    <li><a href="#">Certificate Procedures</a></li>
+                                    <li><a href="#">Placement Cell</a></li>
+                                    <li><a href="#">Placement Portal</a></li>
+                                    <li><a href="#"> Clubs</a></li>
+                                    <li><a href="#">Career Guidance</a></li>
+                                    <li><a href="#">Women's Counseling Cell</a></li>
+                                    <li><a href="#">First Aid Cell</a></li>
+                                    <li><a href="#">Value Education Centre</a></li>
+                                    <li><a href="#">News Letter</a></li>
+                                </ul>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#"><i class="md md-my-library-books"></i> Research</a>
+                
+                                <ul>
+                                    <li><a href="research.html" class="active">Research Guides</a></li>
+                                    <li><a href="#">Projects</a></li>
+                                    <li><a href="#">Consultancy</a></li>
+                                    <li><a href="#">TeJAS</a></li>
+                                    <li><a href="#">Books Published</a></li>
+                                </ul>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#"><i class="md md-swap-calls"></i>Facilities</a>
+                                <ul>
+                                    <li><a href="Library.html" class="active">Library</a></li>
+                                    <li><a href="#">Inflibnet</a></li>
+                                    <li><a href="#">Hostels</a></li>
+                                    <li><a href="#">Infrastructure</a></li>
+                                    <li><a href="#">Campus Trees</a></li>
+                               </ul>
+                            </li>
+                            <li>
+                                <a href="alumni.html"><i class="md md-account-box"></i>Alumni</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </aside>
+            
+        
+        
+        <br>
+            <section id="content">
+                <div class="container">
+                   <div class="card">
+                            <div class="card-header ch-alt">
+                               <h2><b><font color="#006064" size="4px">Feedback / Suggestion</font></b></h2>
+                            </div>
+                            
+                           <div class="card-body card-padding">
+                            <form role="form">
+                                <div class="form-group fg-line">
+                                    <label for="name"><b><font color="#006064" size="2px">Name</b></font></label>
+                                    <input type="text" class="form-control input-sm" id="name" placeholder="Enter Name">
+                                </div>
+                                <div class="form-group fg-line">
+                                    <label for="contact"><b><font color="#006064" size="2px">Contact Number</b></font></label>
+                                    <input type="number" class="form-control input-sm" id="contact" placeholder="Enter Contact Number">
+                                </div>
+                                <div class="form-group fg-line">
+                                    <label for="email"><b><font color="#006064" size="2px">Email address</b></font></label>
+                                    <input type="email" class="form-control input-sm" id="email" placeholder="Enter Email-ID">
+                                </div>
+                                <div class="form-group">
+                                <div class="fg-line">
+                                    <label for="message"><b><font color="#006064" size="2px">Message</b></font></label>
+                                    <textarea class="form-control auto-size" placeholder="Enter Message" type="text" id="message"></textarea>
+                                </div>
+                            </div>
+                                                                
+                                <button type="submit" class="btn btn-info btn-sm m-t-10">Submit</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <button type="reset" class="btn btn-gray btn-sm m-t-10">Reset</button>
+                            </form>
+                        </div>
+                                
+                                
+                    </div>   
+                    </div>
+                </div>
+        <!-- Javascript Libraries -->
+        <script src="js/jquery-2.1.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        
+        <script src="vendors/moment/moment.min.js"></script>
+        <script src="vendors/nicescroll/jquery.nicescroll.min.js"></script>
+        <script src="vendors/auto-size/jquery.autosize.min.js"></script>
+        <script src="vendors/bootstrap-select/bootstrap-select.min.js"></script>
+        <script src="vendors/chosen/chosen.jquery.min.js"></script>
+        <script src="vendors/noUiSlider/jquery.nouislider.all.min.js"></script>
+        <script src="vendors/input-mask/input-mask.min.js"></script>
+        <script src="vendors/farbtastic/farbtastic.min.js"></script>
+        <script src="vendors/summernote/summernote.min.js"></script>
+        <script src="vendors/bootstrap-datetimepicker/bootstrap-datetimepicker.min.js"></script>
+        <script src="vendors/fileinput/fileinput.min.js"></script>
+        <script src="vendors/waves/waves.min.js"></script>
+        <script src="vendors/bootstrap-growl/bootstrap-growl.min.js"></script>
+        <script src="vendors/sweet-alert/sweet-alert.min.js"></script>
+        
+        <script src="js/functions.js"></script>
+        <script src="js/demo.js"></script>
+        
+    
+    </body>
+
+<!-- Mirrored from byrushan.com/projects/ma/v1-3-1/form-components.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 04 May 2015 13:19:11 GMT -->
+</html>
